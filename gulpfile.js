@@ -51,6 +51,20 @@ gulp.task('sass', function () {
         .pipe(gulp.dest('css'));
 });
 
+gulp.task('script', function () {
+    return gulp.src('js/bootstrap.min.js')
+        .pipe(gulp.dest('_site/js'))
+        .pipe(browserSync.reload({stream:true}))
+        .pipe(gulp.dest('js'));
+});
+
+gulp.task('images', function () {
+    return gulp.src('images/*')
+        .pipe(gulp.dest('_site/images/*'));
+});
+
+
+
 /**
  * Watch scss files for changes & recompile
  * Watch html/md files, run jekyll & reload BrowserSync
