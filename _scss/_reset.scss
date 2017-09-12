@@ -13,9 +13,7 @@
 html, body { height: 100%; }
 
 body {
-    background-color: black;
-    font: 13.34px Helvetica, Arial, sans-serif;
-    font-size: small;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
 
@@ -25,6 +23,9 @@ h1, h2, h3, h4, h5, h6 {
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
 
-a         { color: #00a; }
+a {
+    color: white;
+    padding: 0;
+}
 a:hover   { color: #000; }
 a:visited { color: #a0a; }

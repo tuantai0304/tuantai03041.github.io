@@ -1,0 +1,81 @@
+section#contact {
+  padding-bottom: 113px;
+  padding-top: 85px;
+  background-color: #ECECEC;
+}
+
+section#contact .card-button {
+  background: $blue;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.contact-card {
+  min-height: 293px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  box-shadow: 0 10px 20px 0 rgba(0,0,0,0.1);
+  margin: auto;
+  margin-bottom: 20px;
+  padding-bottom: 37px;
+}
+
+.contact-content {
+  text-align: left;
+  margin: 22px 37px;
+}
+
+.card-header-text {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  line-height: 29px;
+  text-transform: uppercase;
+  margin: 0;
+  vertical-align: middle;
+  margin-left: 12px;
+}
+
+.card-header {
+  margin-bottom: 19px;
+}
+
+form .form-group.row {
+  margin-bottom: 20px ;
+}
+
+
+/*
+  Offices styles
+*/
+.office {
+  text-align: left;
+  margin-left: 50px;
+}
+
+.office-icon, .office-detail p {
+  display: inline-block;
+  margin: 0 0 20px;
+  vertical-align: top;
+  padding: 0;
+}
+
+
+.office-detail p {
+  margin-left: 17px;
+  color: #2D2D2D;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.office-detail p a {
+  color: $blue;
+}
+
+
+
+

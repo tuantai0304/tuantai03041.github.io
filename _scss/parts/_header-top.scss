@@ -1,0 +1,28 @@
+.header-top a{
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+.header-top ul {
+  margin-right: 47px ;
+  list-style: none;
+  margin-bottom: 0;
+}
+
+.header-top ul li {
+  display: inline-block;
+  margin-right: 35px;
+}
+
+.header-top i {
+  margin-right: 5px;
+}
+
+.header-top {
+  background-color: $blue;
+  padding: 17px 0 17px;
+}
+

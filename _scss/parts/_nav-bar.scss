@@ -1,0 +1,34 @@
+.navbar {
+  font-size: 13px;
+  letter-spacing: 1px;
+  line-height: 16px;
+}
+
+
+.navbar a {
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+
+#navbar li a:visited {
+  color: white;
+}
+
+#navbar li a:hover {
+  background: none;
+  color: white;
+  border-bottom: 3px solid $blue;
+}
+
+#navbar li.active {
+  border-bottom: 3px solid $blue;
+}
+
+#navbar li.active:hover {
+  border-bottom: none;
+}
+
+.navbar-brand {
+  vertical-align: top;
+  padding: 0;
+}
