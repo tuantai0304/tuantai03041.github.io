@@ -42,4 +42,15 @@
   text-transform: none;
 }
 
+.section-hero .card-button img {
+  margin-right: 10px;
+  vertical-align: top;
+}
+
+@media screen and (max-width: 500px) {
+  .hero-text h2, .hero-text h1, .hero-text p  {
+    font-size: 2em;
+  }
+}
+
 

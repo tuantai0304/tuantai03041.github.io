@@ -122,6 +122,13 @@
   background-color: $red;
 }
 
+.card-red {
+  margin-right: 0;
+}
+.card-green {
+  margin-left: 0;
+}
+
 .card-green button {
   background-color: $green;
 }
@@ -129,7 +136,7 @@
 .card-button {
   border-radius: 100px;
   max-width:450px;
-  //min-width:400px;
+  min-width:400px;
   margin-top: 38px;
   padding: 16px 0 16px;
   border: none;
@@ -147,9 +154,19 @@
   color: white;
 }
 
-@media screen and (max-width: 1200px) {
-  .card {
+@media screen and (max-width: 500px) {
+  .card-button {
+    max-width: 100%;
+    min-width: 100%;
+  }
+}
 
+@media screen and (max-width: 1000px) {
+  .card-red, .card-green {
+    margin: auto
   }
 
+  .card-red {
+    margin-bottom: 30px;
+  }
 }
