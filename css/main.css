@@ -255,7 +255,7 @@ section, header, footer {
 .card-button {
   border-radius: 100px;
   max-width: 450px;
-  min-width: 400px;
+  width: 100%;
   margin-top: 38px;
   padding: 16px 0 16px;
   border: none; }
@@ -438,6 +438,120 @@ section .container {
 
 #repair {
   background-color: #ECECEC; }
+
+.price-card .card-content {
+  padding: 0 20px 47px;
+  max-width: 330px;
+  margin: 0 auto; }
+
+.price-card .card-title {
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  line-height: 34px;
+  text-align: center; }
+
+.price-card .card-subtitle {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 20px;
+  text-align: center; }
+
+.price-card .card-button {
+  min-width: auto; }
+
+.price-card .feature-list {
+  color: #555555;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22px;
+  text-align: left;
+  margin-right: auto;
+  margin-left: auto;
+  display: inline-block; }
+
+.price-card .card-price i {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  text-align: center;
+  vertical-align: super; }
+
+.price-card .card-price {
+  font-size: 70px;
+  font-weight: 500;
+  line-height: 86px;
+  text-align: center;
+  margin: 0; }
+  .price-card .card-price .per-period {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #2D2D2D; }
+
+.price-card .billing-period {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  text-align: center;
+  margin: 0; }
+
+.price-card .no-page-limit {
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 15px;
+  text-align: left;
+  margin: 0; }
+
+.price-card .card-emphasized {
+  border-radius: 100px;
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 18px 30px 18px;
+  font-size: 18px;
+  line-height: 22px; }
+
+.price-card .card-red .topper {
+  background: #F15531;
+  height: auto;
+  padding: 10px;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 20px; }
+
+.price-card .card-red .card-price {
+  color: #F15531; }
+
+.price-card .card-red .card-button {
+  background: #F15531; }
+
+.price-card .card-red .card-title {
+  color: #F15531; }
+
+.price-card .card-red .feature-list {
+  list-style-image: url("../images/icon-tickred.png"); }
+
+.price-card .card-green .topper {
+  background: #17D882; }
+
+.price-card .card-green .card-button {
+  background: #17D882; }
+
+.price-card .card-green .card-price {
+  color: #17D882; }
+
+.price-card .card-green .card-title {
+  color: #17D882;
+  margin-top: 49px; }
+
+.price-card .card-green .feature-list {
+  list-style-image: url("../images/icon-tickgreen.png"); }
 
 section#testimonials {
   padding-bottom: 110px;
