@@ -95,7 +95,7 @@ section, header, footer {
   margin-bottom: 50px;
   text-transform: none; }
 
-.section-hero .card-button img {
+.card-button img {
   margin-right: 10px;
   vertical-align: top; }
 
@@ -376,15 +376,16 @@ section .container {
   font-weight: bold;
   letter-spacing: 2px;
   line-height: 20px;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  display: inline-block; }
 
 .review .company {
-  color: #4A90E2;
   font-size: 24px;
   font-weight: 300;
   letter-spacing: 2px;
   line-height: 20px;
-  margin-top: 0; }
+  margin-top: 0;
+  display: inline-block; }
 
 @media screen and (max-width: 800px) {
   .review {
@@ -394,6 +395,49 @@ section .container {
     left: 0; }
   .review .icon-quote-finish, .review .icon-quote-start {
     display: none; } }
+
+.logos-wrapper {
+  max-width: 915px;
+  margin: 52px auto; }
+
+.large-benefit {
+  padding-top: 99px;
+  padding-bottom: 124px;
+  text-align: left; }
+  .large-benefit .content-wrapper {
+    max-width: 730px; }
+  .large-benefit .section-title {
+    margin-bottom: 31px; }
+  .large-benefit .large-benefit-single {
+    margin-bottom: 68px; }
+  .large-benefit .large-benefit-intro {
+    margin-top: 0;
+    margin-bottom: 52px;
+    max-width: 681px; }
+  .large-benefit .large-benefit-heading {
+    margin: 0;
+    margin-bottom: 12px; }
+    .large-benefit .large-benefit-heading img {
+      margin-right: 12px; }
+  .large-benefit .large-benefit-content {
+    max-width: 320px;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    margin: 0; }
+  .large-benefit .card-button {
+    margin-top: 0;
+    width: 450px; }
+
+.red .emphasized {
+  color: #F15531; }
+
+.red .card-button {
+  background: #F15531; }
+
+#repair {
+  background-color: #ECECEC; }
 
 section#testimonials {
   padding-bottom: 110px;

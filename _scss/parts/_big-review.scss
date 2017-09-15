@@ -48,15 +48,17 @@ section .container {
   letter-spacing: 2px;
   line-height: 20px;
   margin-bottom: 10px;
+  display: inline-block;
 }
 
 .review .company {
-  color: $blue;
+  //color: $blue;
   font-size: 24px;
   font-weight: 300;
   letter-spacing: 2px;
   line-height: 20px;
   margin-top: 0;
+  display: inline-block;
 }
 
 @media screen and (max-width: 800px) {

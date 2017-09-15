@@ -1,0 +1,60 @@
+.large-benefit {
+  padding-top: 99px;
+  padding-bottom: 124px;
+  text-align: left;
+
+  .content-wrapper {
+    max-width: 730px;
+  }
+
+  .section-title {
+    margin-bottom: 31px;
+  }
+
+  .large-benefit-single {
+    margin-bottom: 68px ;
+  }
+
+  .large-benefit-intro {
+    margin-top: 0;
+    margin-bottom: 52px;
+    max-width: 681px;
+  }
+
+  .large-benefit-heading {
+    margin: 0;
+    margin-bottom: 12px;
+
+    img {
+      margin-right: 12px;
+    }
+  }
+
+  .large-benefit-content {
+    max-width: 320px;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    margin: 0;
+  }
+
+  .card-button {
+    margin-top: 0;
+    width: 450px;
+  }
+}
+
+.red {
+  .emphasized {
+    color: $red;
+  }
+
+  .card-button {
+    background: $red;
+  }
+}
+
+#repair {
+  background-color: #ECECEC;
+}
