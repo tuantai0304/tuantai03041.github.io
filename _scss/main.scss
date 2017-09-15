@@ -1,12 +1,16 @@
+/* Import boostrap */
+
+/* Custom files*/
 @import "tools/vars";
 
 @import "reset";
 
 /* Import parts */
 @import "parts/general";
-@import "parts/header-top";
+//@import "parts/header-top";
 @import "parts/hero-section";
-@import "parts/nav-bar";
+@import "parts/_main_nav";
+@import "parts/_top_nav";
 @import "parts/card";
 @import "parts/platforms";
 @import "parts/features";
@@ -15,6 +19,7 @@
 @import "parts/contact";
 @import "parts/footer";
 
+//@import "tools/boostrap/bootstrap";
 
 
 

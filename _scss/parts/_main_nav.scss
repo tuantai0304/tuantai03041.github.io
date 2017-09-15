@@ -2,28 +2,25 @@
   font-size: 13px;
   letter-spacing: 1px;
   line-height: 16px;
+  padding: 0;
 }
 
-.navbar a {
-  text-transform: uppercase;
-  margin-top: 50px;
-}
 
-#navbar li a:visited {
+#main-nav li a:visited {
   color: white;
 }
 
-#navbar li a:hover {
+#main-nav li a:hover {
   background: none;
   color: white;
   border-bottom: 3px solid $blue;
 }
 
-#navbar li.active {
+#main-nav li.active {
   border-bottom: 3px solid $blue;
 }
 
-#navbar li.active:hover {
+#main-nav li.active:hover {
   border-bottom: none;
 }
 
@@ -32,6 +29,6 @@
   padding: 0;
 }
 
-#navbar .icon-bar {
-  color: red;
+#main-nav {
+  margin-top: 28px;
 }

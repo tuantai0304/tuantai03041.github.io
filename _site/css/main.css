@@ -1,3 +1,5 @@
+/* Import boostrap */
+/* Custom files*/
 /*****************************************************************************/
 /*
 /* Common
@@ -28,11 +30,8 @@ a {
   color: white;
   padding: 0; }
 
-a:hover {
-  color: #000; }
-
-a:visited {
-  color: #a0a; }
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,0,0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
 
 /* Import parts */
 .section-title {
@@ -60,29 +59,6 @@ a:visited {
 section, header, footer {
   max-width: 1440px;
   margin: 0 auto; }
-
-.header-top a {
-  color: white;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  text-decoration: none; }
-
-.header-top ul {
-  margin-right: 47px;
-  list-style: none;
-  margin-bottom: 0; }
-
-.header-top ul li {
-  display: inline-block;
-  margin-right: 35px; }
-
-.header-top img {
-  margin-right: 10px; }
-
-.header-top {
-  background-color: #4A90E2;
-  padding: 17px 0 17px; }
 
 .section-hero {
   padding-bottom: 152px; }
@@ -130,32 +106,50 @@ section, header, footer {
 .navbar {
   font-size: 13px;
   letter-spacing: 1px;
-  line-height: 16px; }
+  line-height: 16px;
+  padding: 0; }
 
-.navbar a {
-  text-transform: uppercase;
-  margin-top: 50px; }
-
-#navbar li a:visited {
+#main-nav li a:visited {
   color: white; }
 
-#navbar li a:hover {
+#main-nav li a:hover {
   background: none;
   color: white;
   border-bottom: 3px solid #4A90E2; }
 
-#navbar li.active {
+#main-nav li.active {
   border-bottom: 3px solid #4A90E2; }
 
-#navbar li.active:hover {
+#main-nav li.active:hover {
   border-bottom: none; }
 
 .navbar-brand {
   vertical-align: top;
   padding: 0; }
 
-#navbar .icon-bar {
-  color: red; }
+#main-nav {
+  margin-top: 28px; }
+
+.btn-outline-top {
+  width: 151px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 100px;
+  margin-left: 10px;
+  padding-bottom: 13px;
+  padding-top: 13px; }
+  .btn-outline-top img {
+    margin-right: 8px; }
+
+#top-nav .nav-link {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 14px; }
+
+#top-nav {
+  padding-top: 15px;
+  padding-bottom: 0; }
 
 /*
     Card styles
@@ -165,7 +159,8 @@ section, header, footer {
   box-shadow: 0 10px 20px 0 #000000;
   max-width: 500px;
   background-color: #FFFFFF;
-  margin: 0 auto 30px; }
+  margin: 0 auto 30px;
+  border: none; }
 
 .card .bar {
   height: 17px;
