@@ -1,0 +1,32 @@
+section#why-choose-sitegaurd {
+  min-height: 500px;
+  background-color: $blue;
+  padding-top: 94px;
+  padding-bottom: 118px;
+
+  .section-title, .emphasized {
+    color: white;
+  }
+
+  .emphasized {
+    font-size: 70px;
+    font-weight: 500;
+    letter-spacing: 7px;
+    line-height: 86px;
+  }
+
+  .content {
+    text-align: left;
+    color: white;
+
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
+  }
+}
+
+
+
+
+

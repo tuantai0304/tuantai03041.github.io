@@ -357,7 +357,8 @@ section .container {
   font-size: 40px;
   font-weight: 300;
   line-height: 48px;
-  position: relative; }
+  position: relative;
+  margin: 0; }
 
 .review .quote .icon-quote-start {
   position: absolute;
@@ -439,9 +440,13 @@ section .container {
 #repair {
   background-color: #ECECEC; }
 
+section#price {
+  padding: 99px 0 98px; }
+
 .price-card .card-content {
   padding: 0 20px 47px;
-  max-width: 330px;
+  max-width: 352px;
+  width: 352px;
   margin: 0 auto; }
 
 .price-card .card-title {
@@ -471,6 +476,12 @@ section .container {
   margin-right: auto;
   margin-left: auto;
   display: inline-block; }
+
+.price-card .feature-list li {
+  margin-bottom: 8px; }
+
+.price-card .feature-list li:last-child {
+  margin-bottom: 0; }
 
 .price-card .card-price i {
   font-size: 24px;
@@ -511,9 +522,11 @@ section .container {
 .price-card .card-emphasized {
   border-radius: 100px;
   background-color: rgba(0, 0, 0, 0.05);
-  padding: 18px 30px 18px;
-  font-size: 18px;
-  line-height: 22px; }
+  padding: 18px 50px 18px;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: "lato", sans-serif;
+  position: relative; }
 
 .price-card .card-red .topper {
   background: #F15531;
@@ -552,6 +565,69 @@ section .container {
 
 .price-card .card-green .feature-list {
   list-style-image: url("../images/icon-tickgreen.png"); }
+
+section#big-review-no-image {
+  min-height: 500px;
+  background-color: #202020;
+  padding-top: 167px;
+  padding-bottom: 144px; }
+  section#big-review-no-image .review {
+    position: relative;
+    color: white;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1046px; }
+  section#big-review-no-image .review .quote {
+    width: 1046px;
+    color: #FFFFFF;
+    font-family: "Lato", sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 48px;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 62px; }
+  section#big-review-no-image .review .quote .icon-quote-start {
+    position: absolute;
+    top: -30px;
+    left: -30px; }
+  section#big-review-no-image .review .quote .icon-quote-finish {
+    position: absolute;
+    bottom: -30px; }
+  section#big-review-no-image .review .name, section#big-review-no-image .review .company {
+    text-transform: uppercase; }
+  section#big-review-no-image .review .name {
+    margin-top: 27px; }
+  @media screen and (max-width: 800px) {
+    section#big-review-no-image .review {
+      position: relative;
+      text-align: center;
+      top: 0;
+      left: 0; }
+    section#big-review-no-image .review .icon-quote-finish, section#big-review-no-image .review .icon-quote-start {
+      display: none; } }
+
+section#why-choose-sitegaurd {
+  min-height: 500px;
+  background-color: #4A90E2;
+  padding-top: 94px;
+  padding-bottom: 118px; }
+  section#why-choose-sitegaurd .section-title, section#why-choose-sitegaurd .emphasized {
+    color: white; }
+  section#why-choose-sitegaurd .emphasized {
+    font-size: 70px;
+    font-weight: 500;
+    letter-spacing: 7px;
+    line-height: 86px; }
+  section#why-choose-sitegaurd .content {
+    text-align: left;
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px; }
 
 section#testimonials {
   padding-bottom: 110px;

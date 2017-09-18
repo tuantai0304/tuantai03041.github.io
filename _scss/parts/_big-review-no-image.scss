@@ -1,0 +1,70 @@
+section#big-review-no-image {
+  min-height: 500px;
+  background-color: #202020;
+  padding-top: 167px;
+  padding-bottom: 144px;
+
+  .review {
+    position: relative;
+    color: white;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1046px;
+  }
+
+  .review .quote {
+    width: 1046px;
+    color: #FFFFFF;
+    font-family: "Lato", sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 48px;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 62px;
+  }
+
+  .review .quote .icon-quote-start {
+    position: absolute;
+    top: -30px;
+    left: -30px
+  }
+
+  .review .quote .icon-quote-finish {
+    position: absolute;
+    bottom: -30px;
+  }
+
+  .review .name, .review .company {
+    text-transform: uppercase;
+  }
+
+  .review .name {
+    margin-top: 27px
+  }
+
+  .review .company {
+    //color: $blue;
+
+  }
+
+  @media screen and (max-width: 800px) {
+    .review {
+      position: relative;
+      text-align: center;
+      top: 0;
+      left:0;
+    }
+
+    .review .icon-quote-finish, .review .icon-quote-start {
+      display: none;
+    }
+  }
+}
+
+
+
+
+
