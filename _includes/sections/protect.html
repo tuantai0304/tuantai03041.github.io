@@ -1,22 +1,22 @@
-<section id="repair" class="red large-benefit">
+<section id="protect" class="green large-benefit">
     <div class="container">
 
         <div class="content-wrapper">
             <h1 class="section-title">
-                <span class="emphasized">REPAIR</span> YOUR HACKED WEBSITE
+                <span class="emphasized">PROTECT</span> YOUR WEBSITE AND BUSINESS
             </h1>
 
             <p class="large-benefit-intro">
-                {{ site.data.settings.repair.intro }}
+                {{ site.data.settings.protect.intro }}
             </p>
             <div class="row">
-                {%for item in site.data.settings.repair.benefits%}
+
+                {%for item in site.data.settings.protect.benefits%}
                 <div class="col-sm-12 col-md-6 large-benefit-single">
-                    <img src="images/{{item.icon}}" alt=""><h4 class="large-benefit-heading">{{item.title}}</h4>
+                    <h4 class="large-benefit-heading"><img src="images/{{item.icon}}" alt="">{{item.title}}</h4>
                     <p class="large-benefit-content">{{item.content}}</p>
                 </div>
                 {%endfor%}
-
             </div> <!-- End row-->
 
             <button class="card-button">

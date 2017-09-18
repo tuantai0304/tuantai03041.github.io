@@ -2,6 +2,11 @@
   padding-top: 99px;
   padding-bottom: 124px;
   text-align: left;
+
+  .container {
+    width: 1260px;
+  }
+
   .content-wrapper {
     max-width: 730px;
   }
@@ -22,12 +27,23 @@
 
   .large-benefit-heading {
     margin: 0;
-    margin-bottom: 12px;
-
-    img {
-      margin-right: 12px;
-    }
+    //margin-bottom: 12px;
+    display: inline-block;
+    //vertical-align: baseline;
+    line-height: 20px;
+    font-family: "Montserrat",sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
   }
+
+  img {
+    margin-right: 12px;
+    margin-bottom: 12px;
+    vertical-align: top;
+  }
+
+
 
   .large-benefit-content {
     max-width: 320px;
@@ -60,8 +76,4 @@
 
 .large-benefit.red {
   background: url("../images/macbook-alert.png") center right no-repeat;
-}
-
-.large-benefit.green {
-  background: url("../images/macbook-padlock.png") center right no-repeat;
 }

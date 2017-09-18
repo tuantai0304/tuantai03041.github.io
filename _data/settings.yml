@@ -62,5 +62,72 @@ repair: {
     { icon: "icon-dollar-sml.png", title: "FIXED OR YOUR MONEY BACK!" , content: "If your site is hacked and has Malware, Google will completely remove it from their search engine. We can fix your site and restore your Google listing."},
 ]}
 
+protect: {
+  title: YOUR HACKED WEBSITE IN HOURS,
+  title-emphasized: REPAIR,
+  intro: "The majority of businesses use Anti-Virus to protect their computers and devices - however almost all have little to no protection on their website. Your website is the face & gateway to your business, protect it from Hackers, Malware, Threats & Ransomware with our <span class=\"emphasized\">AUTOMATIC WEBSITE & BUSINESS PROTECTION.</span>.",
+  benefits: [
+    { icon: "icon-search-sml.png", title: "DAILY WEBSITE SCAN" , content: "Your website will be automatically scanned for Malware - from top to bottom - and when it is found, we instantly remove it from your files."},
+    { icon: "icon-googlegreen-sml.png", title: "GOOGLE LISTING PROTECTION" , content: "If your site is hacked and has Malware, Google will completely remove your from their search engine. We can fix your site and restore your Google listing."},
+    { icon: "icon-tick-sml.png", title: "AUTOMATICALLY REMOVE THREATS" , content: "Our emergency website and business repair will fix your website within 24 hours - this means all malware removed and ready to go back online!"},
+    { icon: "icon-smile-sml.png", title: "PEACE OF MIND" , content: "If we can't restore your website back to its previous glory - we will give you a 100% refund! So you literally have no risk. Pretty great huh?!"},
+]}
+
+#
+# Price section
+prices:
+- {title: EMERGENCY,
+  subtitle: WEBSITE & BUSINESS REPAIR,
+  price: 199,
+  topper: 100% MONEY BACK GUARANTEE,
+  period: billed once-off*,
+  per-period: Once,
+  type: red,
+  button-text: "PURCHASE & REPAIR",
+  features: [
+    "24 hour turn-around",
+    "Fixed or 100% money back",
+    "Immediate scan and report",
+    "Automatic removal of threats",
+    "Complete malware cleanup <p class=\"no-page-limit\">(No page limit)</p>",
+]
+}
+- {title: RELIABLE,
+  subtitle: DAILY THREAT MONITORING,
+  price: 4.10,
+  period: "*billed annully at $49.00",
+  per-period: MO,
+  type: green,
+  button-text: "PURCHASE & MONITOR",
+  card-emphasized: "<strong>Instant notification</strong> if a threat is
+                    detected on your website",
+  features: [
+    "12 months of monitoring",
+    "Daily malware scan",
+    "Annual vulnerability scan",
+    "Up to 25 pages monitored"]
+}
+
+- {title: AUTOMATIC,
+  subtitle: WEBSITE & BUSINESS PROTECTION,
+  price: 24.90,
+  period: "*billed annully at $299.00",
+  per-period: MO,
+  type: green,
+  button-text: "PURCHASE & PROTECT",
+  card-emphasized: "<strong>Instant notification</strong> of threats and <strong>immediate removal</strong> of any vulnerability and malware",
+  features: [
+    "12 months of protection",
+    "Daily Malware Scan",
+    "Daily Vulnerability Scan",
+    "Up to 500 pages monitored",
+    "Spam & Blacklist Monitoring",
+    "SEO Reputation Monitoring",
+    "Advanced DDoS protection",
+    "Exceptional customer support",
+    "Threats instantly removed",
+    ]
+}
+
 
 

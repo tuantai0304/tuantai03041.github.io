@@ -6,92 +6,39 @@
         <h2 class="section-subtitle">Whether you need to protect or fix your website, simply choose the plan below and press purchase button to get your service setup in an instant.</h2>
 
         <div class="row">
+            {% for item in site.data.settings.prices%}
             <div class="col-sm-12 col-md-4 price-card">
+                {% if item.type == "red" %}
                 <div class="card card-red">
-                    <div class="topper">100% MONEY BACK GUARANTEE</div>
-                    <div class="card-content">
-                        <h2 class="card-title">Emergency</h2>
-                        <h3 class="card-subtitle">WEBSITE & BUSINESS REPAIR</h3>
-                        <p class="card-price"><i class="fa fa-dollar"></i>199<span class="per-period">/Once</span></p>
-                        <p class="billing-period">billed once-off*</p>
-
-                        <hr>
-
-                        <ul class="feature-list">
-                            <li>24 hour turn-around</li>
-                            <li>Infected with Malware</li>
-                            <li>Infected with Malware</li>
-                            <li>Infected with Malware</li>
-                            <li>Infected with Malware</li>
-                            <li>Infected with Malware<p class="no-page-limit">(No page limit)</p></li>
-                            <li>Infected with Malware<p class="no-page-limit">(No page limit)</p></li>
-                            <li>Infected with Malware<p class="no-page-limit">(No page limit)</p></li>
-                            <li>Infected with Malware<p class="no-page-limit">(No page limit)</p></li>
-                        </ul> <!-- End feateure list-->
-
-
-
-                        <button class="card-button">
-                            <a href="#"><img src="images/button-icon-next.png" alt="">Emergency repair</a>
-                        </button>
-
-                    </div> <!-- End card content -->
-                </div> <!-- End card-->
-            </div>
-            <div class="col-sm-12 col-md-4 price-card">
+                {%else%}
                 <div class="card card-green">
-                    <div class="topper"></div>
+                {%endif%}
+                    <div class="topper">{{item.topper}}</div>
                     <div class="card-content">
-                        <h2 class="card-title">Emergency</h2>
-                        <h3 class="card-subtitle">WEBSITE & BUSINESS REPAIR</h3>
-                        <p class="card-price"><i class="fa fa-dollar"></i>199<span class="per-period">/Once</span></p>
-                        <p class="billing-period">billed once-off*</p>
+                        <h2 class="card-title">{{item.title}}</h2>
+                        <h3 class="card-subtitle">{{item.subtitle}}</h3>
+                        <p class="card-price"><i class="fa fa-dollar"></i>{{item.price}}<span class="per-period">/ {{item.per-period}}</span></p>
+                        <p class="billing-period">{{item.period}}</p>
 
                         <hr>
 
                         <ul class="feature-list">
-                            <li>24 hour turn-around</li>
-                            <li>Infected with Malware</li>
-                            <li>Infected with Malware<p class="no-page-limit">(No page limit)</p></li>
+                            {%for feature in item.features %}
+                            <li>{{feature}}</li>
+                            {%endfor%}
                         </ul> <!-- End feateure list-->
 
-                        <p class="card-emphasized"><strong>Instant notification</strong> if a threat
-                            is detected on your website</p>
+                        {% if item.card-emphasized %}
+                        <p class="card-emphasized">{{item.card-emphasized}}</p>
+                        {% endif %}
 
                         <button class="card-button">
-                            <a href="#"><img src="images/button-icon-next.png" alt="">Emergency repair</a>
+                            <a href="#"><img src="images/button-icon-next.png" alt="">{{item.button-text}}</a>
                         </button>
-
                     </div> <!-- End card content -->
                 </div> <!-- End card-->
             </div>
-            <div class="col-sm-12 col-md-4 price-card">
-                <div class="card card-green">
-                    <div class="topper"></div>
-                    <div class="card-content">
-                        <h2 class="card-title">Emergency</h2>
-                        <h3 class="card-subtitle">WEBSITE & BUSINESS REPAIR</h3>
-                        <p class="card-price"><i class="fa fa-dollar"></i>199<span class="per-period">/Once</span></p>
-                        <p class="billing-period">billed once-off*</p>
-
-                        <hr>
-
-                        <ul class="feature-list">
-                            <li>24 hour turn-around</li>
-                            <li>Infected with Malware</li>
-                            <li>Infected with Malware<p class="no-page-limit">(No page limit)</p></li>
-                        </ul> <!-- End feateure list-->
-
-
-
-                        <button class="card-button">
-                            <a href="#"><img src="images/button-icon-next.png" alt="">Emergency repair</a>
-                        </button>
-
-                    </div> <!-- End card content -->
-                </div> <!-- End card-->
-            </div>
-
+            {% endfor%}
 
         </div>
 

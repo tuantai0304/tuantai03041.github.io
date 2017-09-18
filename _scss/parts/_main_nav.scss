@@ -1,10 +1,16 @@
+.navbar-wrapper {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
 .navbar {
   font-size: 13px;
   letter-spacing: 1px;
   line-height: 16px;
+  font-weight: 500;
+  line-height: 16px;
   padding: 0;
 }
-
 
 #main-nav li a:visited {
   color: white;
@@ -22,6 +28,22 @@
 
 #main-nav li.active:hover {
   border-bottom: none;
+}
+
+#main-nav {
+  li.nav-item {
+    text-transform: uppercase;
+    margin-left: 36px;
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+
+  .nav-link {
+    padding: 0;
+    padding-bottom: 20px;
+  }
 }
 
 .navbar-brand {

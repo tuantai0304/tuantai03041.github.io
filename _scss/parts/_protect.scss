@@ -2,6 +2,7 @@
   padding-top: 99px;
   padding-bottom: 124px;
   text-align: left;
+
   .content-wrapper {
     max-width: 730px;
   }
@@ -44,23 +45,20 @@
   }
 }
 
-.red {
+.green {
   .emphasized {
-    color: $red;
+    color: $green;
   }
 
   .card-button {
-    background: $red;
+    background: $green;
   }
 }
 
-#repair {
-  background-color: #ECECEC;
+#protect {
+  background-color: white;
 }
 
-.large-benefit.red {
-  background: url("../images/macbook-alert.png") center right no-repeat;
-}
 
 .large-benefit.green {
   background: url("../images/macbook-padlock.png") center right no-repeat;

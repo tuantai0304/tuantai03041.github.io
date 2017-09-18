@@ -155,9 +155,21 @@ form .card-button img {
   .contact-col:nth-child(3) {
     width: 320px;
   }
-
-
 }
+
+.social-icons {
+  display: flex;
+  justify-content: flex-start;
+
+  img {
+    margin-left: 10px;
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+}
+
 
 
 

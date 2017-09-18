@@ -60,6 +60,10 @@ section, header, footer {
   max-width: 1440px;
   margin: 0 auto; }
 
+button:hover, .btn:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+  opacity: 2; }
+
 .section-hero {
   padding-bottom: 152px; }
 
@@ -103,9 +107,15 @@ section, header, footer {
   .hero-text h2, .hero-text h1, .hero-text p {
     font-size: 2em; } }
 
+.navbar-wrapper {
+  margin-left: 40px;
+  margin-right: 40px; }
+
 .navbar {
   font-size: 13px;
   letter-spacing: 1px;
+  line-height: 16px;
+  font-weight: 500;
   line-height: 16px;
   padding: 0; }
 
@@ -122,6 +132,16 @@ section, header, footer {
 
 #main-nav li.active:hover {
   border-bottom: none; }
+
+#main-nav li.nav-item {
+  text-transform: uppercase;
+  margin-left: 36px; }
+  #main-nav li.nav-item:first-child {
+    margin-left: 0; }
+
+#main-nav .nav-link {
+  padding: 0;
+  padding-bottom: 20px; }
 
 .navbar-brand {
   vertical-align: top;
@@ -409,6 +429,57 @@ section .container {
   padding-top: 99px;
   padding-bottom: 124px;
   text-align: left; }
+  .large-benefit .container {
+    width: 1260px; }
+  .large-benefit .content-wrapper {
+    max-width: 730px; }
+  .large-benefit .section-title {
+    margin-bottom: 31px; }
+  .large-benefit .large-benefit-single {
+    margin-bottom: 68px; }
+  .large-benefit .large-benefit-intro {
+    margin-top: 0;
+    margin-bottom: 52px;
+    max-width: 681px; }
+  .large-benefit .large-benefit-heading {
+    margin: 0;
+    display: inline-block;
+    line-height: 20px;
+    font-family: "Montserrat",sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px; }
+  .large-benefit img {
+    margin-right: 12px;
+    margin-bottom: 12px;
+    vertical-align: top; }
+  .large-benefit .large-benefit-content {
+    max-width: 320px;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    margin: 0; }
+  .large-benefit .card-button {
+    margin-top: 0;
+    width: 450px; }
+
+.red .emphasized {
+  color: #F15531; }
+
+.red .card-button {
+  background: #F15531; }
+
+#repair {
+  background-color: #ECECEC; }
+
+.large-benefit.red {
+  background: url("../images/macbook-alert.png") center right no-repeat; }
+
+.large-benefit {
+  padding-top: 99px;
+  padding-bottom: 124px;
+  text-align: left; }
   .large-benefit .content-wrapper {
     max-width: 730px; }
   .large-benefit .section-title {
@@ -435,23 +506,21 @@ section .container {
     margin-top: 0;
     width: 450px; }
 
-.red .emphasized {
-  color: #F15531; }
+.green .emphasized {
+  color: #17D882; }
 
-.red .card-button {
-  background: #F15531; }
+.green .card-button {
+  background: #17D882; }
 
-#repair {
-  background-color: #ECECEC; }
-
-.large-benefit.red {
-  background: url("../images/macbook-alert.png") center right no-repeat; }
+#protect {
+  background-color: white; }
 
 .large-benefit.green {
   background: url("../images/macbook-padlock.png") center right no-repeat; }
 
 section#price {
-  padding: 99px 0 98px; }
+  padding: 99px 0 98px;
+  background-color: #ECECEC; }
 
 .price-card .card-content {
   padding: 0 20px 47px;
@@ -798,6 +867,16 @@ form .card-button img {
 
 #contact .contact-col:nth-child(3) {
   width: 320px; }
+
+.social-icons {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: start;
+      justify-content: flex-start; }
+  .social-icons img {
+    margin-left: 10px; }
+    .social-icons img:first-child {
+      margin-left: 0; }
 
 footer {
   padding: 35px 0 35px;
