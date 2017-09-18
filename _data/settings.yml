@@ -1,0 +1,66 @@
+
+# Top - Menu section
+top-menu:
+- {icon: 'images/icon-faqs.png', name: partners, url: '#about-me'}
+- {icon: 'images/icon-faqs.png', name: FAQ's, url: '#about-me'}
+- {icon: 'images/icon-login-sml.png', name: Login, url: '#about-me'}
+
+
+# Menu section
+menu:
+- {name: Emergency repair, url: '#about-me'}
+- {name: Website protection, url: '#work'}
+- {name: Pricing, url: '#clients'}
+- {name: Who we are, url: '#contact'}
+- {name: Reviews, url: '#contact'}
+- {name: Contact, url: '#contact'}
+
+# Header card content
+card-red: {title: EMERGENCY , subtitle: HACKED WEBSITE, points: [
+"Infected with Malware?",
+"Blacklisted by Google?",
+"Disabled by Host?",
+"All Website Types",
+], button-text: Emergency repair}
+
+card-green: {title: SECURE , subtitle: WEBSITE PROTECTION, points: [
+"Daily Website Scan","Google Listing Protection","Auto-Fix any Hacking","All Website Types",
+], button-text: Protect website }
+
+
+# Features section
+features:
+- {icon: "icon-diamond.png", title: PROTECT YOUR REPUTATION, content: "Malware doesn’t care if your website is your livelihood. It has the power to ruin your online reputation and your business. Our monitoring and protection services will protect your reputation and business."}
+- {icon: "icon-diamond.png", title: SAFEGUARD YOUR GOOGLE LISTING, content: "Thousands of hacked websites are taken offline by Google and for many businesses, their Google listing is the lifeblood of their business. Why put that at risk? Our Google monitoring and threat removal service will ensure your listing stays visible and restored if you are already hacked."}
+- {icon: "icon-laptop.png", title: INSTANT PROTECTION, content: "Site Guard will begin monitoring and protecting your website instantly. Simply choose the plan below that is right for you, and our team will have you all setup in no time."}
+- {icon: "icon-people.png", title: NO EXCUSES, JUST RESULTS THAT LAST, content: "Our cutting-edge SiteLock product, protects over 6 million websites worldwide, and our expert team are well equipped to keep your business and website safe from threats."}
+- {icon: "icon-chat.png", title: EXCEPTIONAL CUSTOMER SUPPORT, content: "Our experienced team of professionals are always ready to assist you with any and all queries you may have about our service or your website security. Feel free to touch base with us anytime."}
+- {icon: "icon-coin.png", title: 100% MONEY BACK GUARANTEE, content: "We are so sure you will benefit from our protective and repair services - that we offer a 30 day Money Back Guarantee if for any reason you are not satisfied with your service during this time."}
+
+# Brand experiece
+brands:
+- {icon: "logo-appscore.png"}
+- {icon: "logo-thrifty.png"}
+- {icon: "logo-atlanticgroup.png"}
+- {icon: "logo-chiquel.png"}
+- {icon: "logo-amazon.png"}
+- {icon: "logo-probegroup.png"}
+- {icon: "logo-claudeneon.png"}
+- {icon: "logo-rolld.png"}
+- {icon: "logo-suppkings.png"}
+
+# Repair section
+repair: {
+  title: YOUR HACKED WEBSITE IN HOURS,
+  title-emphasized: REPAIR,
+  intro: "Has your website been hacked? Do you suspect you have Malware? Are you and your visitors getting Google's dreaded red malware warning screen? If the answer to any of those questions is yes or maybe, then you need SiteGuard's <span class=\"emphasized\"> EMERGENCY WEBSITE + BUSINESS REPAIR</span>.",
+  benefits: [
+    { icon: "icon-google-sml.png", title: "INSTANTLY REMOVE MALWARE" , content: "Your website will be automatically scanned for Malware - from top to bottom - and when it is found, we instantly remove it from your files."},
+    { icon: "icon-google-sml.png", title: "RESTORE GOOGLE REPUTATION" , content: "If your site is hacked and has Malware, Google will completely remove it from their search engine. We can fix your site and restore your Google listing."},
+    { icon: "icon-google-sml.png", title: "WEBSITE FIXED WITHIN 24 HOURS <br>
+                          (USUALLY WITHIN 4 HOURS)" , content: "Our emergency website and business repair will fix your website within 24 hours - this means your website is 100% free of Malware. "},
+    { icon: "icon-dollar-sml.png", title: "FIXED OR YOUR MONEY BACK!" , content: "If your site is hacked and has Malware, Google will completely remove it from their search engine. We can fix your site and restore your Google listing."},
+]}
+
+
+

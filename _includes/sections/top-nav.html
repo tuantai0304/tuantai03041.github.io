@@ -6,15 +6,11 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
+               {% for item in site.data.settings.top-menu %}
                 <li class="nav-item">
-                    <a href="#" class="btn nav-link btn-outline-top"><img src="images/icon-chatbubble-sml.png" alt="">Support</a>
+                    <a href="{{item.url}}" class="btn nav-link btn-outline-top"><img src="{{item.icon}}" alt="">{{item.name}}</a>
                 </li>
-                <li class="nav-item">
-                    <a href="#" class="btn nav-link btn-outline-top"><img src="images/icon-login-sml.png" alt="">Client login</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="btn nav-link btn-outline-top"><img src="images/icon-login-sml.png" alt="">Client login</a>
-                </li>
+                {% endfor %}
 
             </ul>
         </div>

@@ -18,22 +18,23 @@
                 <div class="card card-red">
                     <div class="bar"></div>
                     <div class="card-content">
-                        <h2 class="card-title">Emergency</h2>
-                        <h3 class="card-subtitle">Hacked website</h3>
+                        <h2 class="card-title">{{site.data.settings.card-red.title}}</h2>
+                        <h3 class="card-subtitle">{{site.data.settings.card-red.subtitle}}</h3>
 
                         <div class="card-features clearfix">
                             <img class="icon" src="images/icon-alert.png" alt="">
                             <div class="content">
                                 <ul>
-                                    <li>Infected with Malware</li>
-                                    <li>Infected with Malware</li>
-                                    <li>Infected with Malware</li>
+
+                                    {%for item in site.data.settings.card-red.points%}
+                                    <li>{{item}}</li>
+                                    {% endfor %}
                                 </ul>
                             </div>
                         </div> <!-- End content-->
 
                         <button class="card-button">
-                            <a href="#"><img src="images/button-icon-next.png" alt="">Emergency repair</a>
+                            <a href="#"><img src="images/button-icon-next.png" alt="">{{site.data.settings.card-red.button-text}}</a>
                         </button>
 
                     </div> <!-- End card content -->
@@ -44,22 +45,22 @@
                 <div class="card card-green">
                     <div class="bar"></div>
                     <div class="card-content">
-                        <h2 class="card-title">Emergency</h2>
-                        <h3 class="card-subtitle">Hacked website</h3>
+                        <h2 class="card-title">{{site.data.settings.card-green.title}}</h2>
+                        <h3 class="card-subtitle">{{site.data.settings.card-green.subtitle}}</h3>
 
                         <div class="card-features">
                             <img class="icon" src="images/icon-padlock.png" alt="">
                             <div class="content">
                                 <ul>
-                                    <li>Infected with Malware</li>
-                                    <li>Infected with Malware</li>
-                                    <li>Infected with Malware</li>
+                                    {%for item in site.data.settings.card-green.points%}
+                                    <li>{{item}}</li>
+                                    {% endfor %}
                                 </ul>
                             </div>
                         </div> <!-- End content-->
 
                         <button class="card-button">
-                            <a href="#"><img src="images/button-icon-next.png" alt="">Emergency repair</a>
+                            <a href="#"><img src="images/button-icon-next.png" alt="">{{site.data.settings.card-green.button-text}}</a>
                         </button>
 
                     </div> <!-- End card content -->

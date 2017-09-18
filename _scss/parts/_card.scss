@@ -81,6 +81,7 @@
 
 .card-features .icon, .card-features .content {
   display: inline-block;
+  text-align: left;
 }
 
 .card-features .content {
@@ -108,7 +109,7 @@
 }
 
 .card-features .icon {
-  vertical-align: top;
+  vertical-align: baseline;
 }
 
 .card-content {

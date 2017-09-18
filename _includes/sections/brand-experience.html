@@ -5,33 +5,12 @@
         </h1>
 
         <div class="logos-wrapper row">
+
+            {%for item in site.data.settings.brands%}
             <div class="col-4">
-                <img class="img-fluid" src="images/icon-diamond.png" alt="">
+                <img class="img-fluid" src="images/{{item.icon}}" alt="{{item.icon}}">
             </div>
-            <div class="col-4">
-                <img class="img-fluid" src="images/icon-diamond.png" alt="">
-            </div>
-            <div class="col-4">
-                <img class="img-fluid" src="images/icon-diamond.png" alt="">
-            </div>
-            <div class="col-4">
-                <img class="img-fluid" src="images/icon-diamond.png" alt="">
-            </div>
-            <div class="col-4">
-                <img class="img-fluid" src="images/icon-diamond.png" alt="">
-            </div>
-            <div class="col-4">
-                <img class="img-fluid" src="images/icon-diamond.png" alt="">
-            </div>
-            <div class="col-4">
-                <img class="img-fluid" src="images/icon-diamond.png" alt="">
-            </div>
-            <div class="col-4">
-                <img class="img-fluid" src="images/icon-diamond.png" alt="">
-            </div>
-            <div class="col-4">
-                <img class="img-fluid" src="images/icon-diamond.png" alt="">
-            </div>
+            {%endfor%}
 
 
         </div>

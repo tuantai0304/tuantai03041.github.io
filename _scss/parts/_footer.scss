@@ -1,15 +1,11 @@
 footer {
-  padding: 42px 20px 42px;
-  background-color: #2d2d2d;
+  padding: 35px 0 35px;
+  background-color: #202020;
   text-align: left;
 }
 
-footer .container{
-  position: relative;
-}
 
 footer .credit {
-
   font-family: "Lato", sans-serif;
   font-size: 14px;
   line-height: 20px;
@@ -28,12 +24,39 @@ footer p:nth-child(n+2) {
   margin-left: 35px;
 }
 
-footer .container > img {
+.credit-card {
   float: right;
-  top: -25px;
-  right: 91px;
-  position: absolute;
+  line-height: 38px;
 }
+
+.tc-nav {
+  display: inline-block;
+
+  ul, li {
+    display: inline-block;
+  }
+
+  ul {
+    margin-left: 10px;
+  }
+
+  a.nav-link {
+    display: inline-block;
+    text-decoration: underline;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  li+li:before {
+    content: " | ";
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+
+
 
 
 

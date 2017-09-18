@@ -209,7 +209,8 @@ section, header, footer {
   padding: 0; }
 
 .card-features .icon, .card-features .content {
-  display: inline-block; }
+  display: inline-block;
+  text-align: left; }
 
 .card-features .content {
   margin-left: 49px; }
@@ -232,7 +233,7 @@ section, header, footer {
   color: #555555; }
 
 .card-features .icon {
-  vertical-align: top; }
+  vertical-align: baseline; }
 
 .card-content {
   padding-bottom: 53px; }
@@ -401,6 +402,9 @@ section .container {
   max-width: 915px;
   margin: 52px auto; }
 
+.logos-wrapper img {
+  margin-bottom: 70px; }
+
 .large-benefit {
   padding-top: 99px;
   padding-bottom: 124px;
@@ -440,13 +444,18 @@ section .container {
 #repair {
   background-color: #ECECEC; }
 
+.large-benefit.red {
+  background: url("../images/macbook-alert.png") center right no-repeat; }
+
+.large-benefit.green {
+  background: url("../images/macbook-padlock.png") center right no-repeat; }
+
 section#price {
   padding: 99px 0 98px; }
 
 .price-card .card-content {
   padding: 0 20px 47px;
   max-width: 352px;
-  width: 352px;
   margin: 0 auto; }
 
 .price-card .card-title {
@@ -580,7 +589,7 @@ section#big-review-no-image {
     text-align: center;
     max-width: 1046px; }
   section#big-review-no-image .review .quote {
-    width: 1046px;
+    max-width: 1046px;
     color: #FFFFFF;
     font-family: "Lato", sans-serif;
     font-size: 40px;
@@ -675,25 +684,32 @@ section#testimonials .card-button img {
   margin-right: 10px;
   vertical-align: top; }
 
-section#contact {
+#contact {
   padding-bottom: 113px;
   padding-top: 85px;
-  background-color: #ECECEC; }
+  background-color: #2D2D2D;
+  text-align: left;
+  color: white; }
+  #contact .card-header {
+    margin-bottom: 19px;
+    padding: 0;
+    background: none;
+    border: none; }
 
-section#contact .card-button {
+#contact .card-button {
   background: #4A90E2;
   width: 100%;
   margin-top: 10px; }
 
 .contact-card {
-  min-height: 293px;
   width: 100%;
   border-radius: 5px;
   background-color: #FFFFFF;
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
   margin: auto;
   margin-bottom: 20px;
-  padding-bottom: 37px; }
+  padding-bottom: 37px;
+  margin-right: 30px; }
 
 .contact-content {
   text-align: left;
@@ -708,21 +724,28 @@ section#contact .card-button {
   text-transform: uppercase;
   margin: 0;
   vertical-align: middle;
-  margin-left: 12px; }
-
-.card-header {
-  margin-bottom: 19px; }
+  margin-left: 12px;
+  color: #2D2D2D; }
 
 form .form-group.row {
   margin-bottom: 20px; }
 
+.office, .widget-title {
+  text-align: left;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 20px; }
+
+.widget-title {
+  text-transform: uppercase;
+  margin-bottom: 17px;
+  margin-top: 46px; }
+
 /*
   Offices styles
 */
-.office {
-  text-align: left;
-  margin-left: 50px; }
-
 .office-icon, .office-detail p {
   display: inline-block;
   margin: 0 0 20px;
@@ -731,14 +754,14 @@ form .form-group.row {
 
 .office-detail p {
   margin-left: 17px;
-  color: #2D2D2D;
+  color: white;
   font-family: "Lato", sans-serif;
   font-size: 14px;
   font-weight: 300;
   line-height: 20px; }
 
 .office-detail p a {
-  color: #4A90E2; }
+  color: white; }
 
 form .card-button {
   max-width: 100%; }
@@ -747,13 +770,39 @@ form .card-button img {
   margin-right: 10px;
   vertical-align: top; }
 
-footer {
-  padding: 42px 20px 42px;
-  background-color: #2d2d2d;
-  text-align: left; }
+.sitemap .nav-link {
+  text-align: left;
+  padding: 0;
+  text-decoration: underline;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  line-height: 26px; }
+  .sitemap .nav-link:hover {
+    color: white; }
 
-footer .container {
-  position: relative; }
+.widget {
+  margin-bottom: 46px; }
+  .widget .widget-content {
+    color: #FFFFFF;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    line-height: 26px; }
+
+/* Change the column width of boostrap for footer */
+#contact .contact-col:first-child {
+  width: 430px; }
+
+#contact .contact-col:nth-child(2) {
+  width: 320px;
+  margin-left: 64px; }
+
+#contact .contact-col:nth-child(3) {
+  width: 320px; }
+
+footer {
+  padding: 35px 0 35px;
+  background-color: #202020;
+  text-align: left; }
 
 footer .credit {
   font-family: "Lato", sans-serif;
@@ -770,8 +819,23 @@ footer p {
 footer p:nth-child(n+2) {
   margin-left: 35px; }
 
-footer .container > img {
+.credit-card {
   float: right;
-  top: -25px;
-  right: 91px;
-  position: absolute; }
+  line-height: 38px; }
+
+.tc-nav {
+  display: inline-block; }
+  .tc-nav ul, .tc-nav li {
+    display: inline-block; }
+  .tc-nav ul {
+    margin-left: 10px; }
+  .tc-nav a.nav-link {
+    display: inline-block;
+    text-decoration: underline;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    line-height: 20px; }
+  .tc-nav li + li:before {
+    content: " | ";
+    padding-left: 10px;
+    padding-right: 10px; }
