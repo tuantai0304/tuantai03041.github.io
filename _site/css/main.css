@@ -1093,11 +1093,13 @@ footer p:nth-child(n+2) {
   padding-top: 23px;
   padding-bottom: 118px; }
   .section-review .review-row {
-    border-bottom: 1px solid #2D2D2D; }
+    border-bottom: 1px solid #D8D8D8; }
     .section-review .review-row:last-child {
       border: none; }
   .section-review .review-post {
-    padding: 50px 15px 50px; }
+    padding: 50px 0 50px 0;
+    max-width: 100%;
+    width: 375px; }
     .section-review .review-post:nth-last-child(3) {
       border: none; }
     .section-review .review-post .name, .section-review .review-post .date {
