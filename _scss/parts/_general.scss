@@ -15,7 +15,12 @@
 .section-subtitle {
   max-width: 652px;
   margin: 0 auto 75px;
-  font-weight: 300 !important;
+  color: $main-text-color;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22px;
+
 }
 
 .topper {

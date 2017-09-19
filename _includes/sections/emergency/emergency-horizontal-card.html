@@ -1,0 +1,32 @@
+{% assign item = site.data.settings.prices[0]%}
+<div class="price-card card-horizontal">
+    <div class="card card-red">
+    <div class="topper">{{item.topper}}</div>
+    <div class="card-content">
+
+        <h2 class="card-title">{{item.title}}</h2>
+        <h3 class="card-subtitle">{{item.subtitle}}</h3>
+        <div class="card-content-row">
+            <div class="card-content-left">
+                <p class="card-price"><i class="fa fa-dollar"></i>{{item.price}}<span class="per-period">/ {{item.per-period}}</span></p>
+                <p class="billing-period">{{item.period}}</p>
+            </div>
+
+            <div class="card-content-right">
+            <ul class="feature-list">
+                {%for feature in item.features %}
+                <li>{{feature}}</li>
+                {%endfor%}
+            </ul> <!-- End feateure list-->
+
+        </div>
+        </div>
+
+        <div class="card-cta">
+            <button class="card-button">
+                <a href="#"><img src="images/button-icon-next.png" alt="">{{item.button-text}}</a>
+            </button>
+        </div>
+    </div> <!-- End card content -->
+</div> <!-- End card-->
+</div>

@@ -62,7 +62,11 @@ b, strong {
 .section-subtitle {
   max-width: 652px;
   margin: 0 auto 75px;
-  font-weight: 300 !important; }
+  color: #2D2D2D;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22px; }
 
 .topper {
   height: 17px;
@@ -221,7 +225,6 @@ button:hover, .btn:hover {
 .card {
   border-radius: 5px;
   box-shadow: 0 10px 20px 0 #000000;
-  max-width: 500px;
   background-color: #FFFFFF;
   margin: 0 auto 30px;
   border: none; }
@@ -309,20 +312,14 @@ button:hover, .btn:hover {
 .card-red button {
   background-color: #F15531; }
 
-.card-red {
-  margin-right: 0; }
-
-.card-green {
-  margin-left: 0; }
-
 .card-green button {
   background-color: #17D882; }
 
 .card-button {
   border-radius: 100px;
-  max-width: 450px;
+  max-width: 100%;
+  width: 450px;
   box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.25);
-  width: 100%;
   margin: 38px auto 0;
   padding: 16px 0 16px;
   border: none; }
@@ -350,6 +347,17 @@ button:hover, .btn:hover {
     margin: auto; }
   .card-red {
     margin-bottom: 30px; } }
+
+.card-horizontal .card-content-row {
+  margin-top: 50px; }
+  .card-horizontal .card-content-row .card-content-left, .card-horizontal .card-content-row .card-content-right {
+    display: inline-block;
+    vertical-align: top; }
+  .card-horizontal .card-content-row .card-content-left {
+    height: 100%;
+    border-right: 1px solid black;
+    padding-right: 15px;
+    margin-right: 35px; }
 
 section#platforms {
   background: #F4F4F4;
@@ -386,6 +394,8 @@ section#features {
   section#features .features-item {
     text-align: center;
     max-width: 320px; }
+    section#features .features-item img {
+      height: 77px; }
 
 .features-item-title {
   font-size: 15px;

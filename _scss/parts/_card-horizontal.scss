@@ -1,0 +1,26 @@
+.card-horizontal {
+
+  .card-content-row {
+    //display:table;
+    //height: 1000px;
+    margin-top: 50px;
+
+    .card-content-left, .card-content-right{
+      display: inline-block;
+      vertical-align: top;
+    }
+
+    .card-content-left {
+      height: 100%;
+      border-right: 1px solid black;
+      padding-right: 15px;
+      margin-right: 35px;
+    }
+
+    .card-content-right {
+      //margin-right: 15px;
+    }
+
+  }
+
+}
