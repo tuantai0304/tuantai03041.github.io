@@ -4,14 +4,15 @@
             <span class="emphasized">Anti virus</span> protection for every website
         </h1>
 
-        <h2 class="section-subtitle">Cras id dui. Duis lobortis massa imperdiet quam. Nullam cursus lacinia erat.</h2>
+        <h2 class="section-subtitle">Complete, cloud-based website protection that finds and automatically fixes threats,
+            prevents future attacks, and accelerates your website speed.</h2>
 
         <div class="row">
             {% for item in site.data.settings.features %}
             <div class="col-sm-6 col-md-4">
                 <div class="features-item">
                     <img src="images/{{item.icon}}" alt="{{item.icon}}">
-                    <p class="features-item-title">{{item.title}}</p>
+                    <h3 class="features-item-title">{{item.title}}</h3>
                     <p class="features-item-content">{{item.content}}</p>
                 </div>
             </div>

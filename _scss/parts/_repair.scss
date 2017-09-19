@@ -3,16 +3,14 @@
   padding-bottom: 124px;
   text-align: left;
 
-  .container {
-    width: 1260px;
-  }
-
   .content-wrapper {
     max-width: 730px;
+    margin: 0;
   }
 
   .section-title {
     margin-bottom: 31px;
+    text-align: left;
   }
 
   .large-benefit-single {
@@ -75,5 +73,17 @@
 }
 
 .large-benefit.red {
-  background: url("../images/macbook-alert.png") center right no-repeat;
+  .container {
+    background: url("../images/macbook-alert.png") center right no-repeat;
+  }
+}
+
+@media (min-width: 1440px) {
+  .large-benefit {
+    .container {
+      max-width: 100%;
+      width: 1440px;
+      padding-left: 90px;
+    }
+  }
 }

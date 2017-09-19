@@ -11,10 +11,9 @@ section#price .container {
 
 .price-card {
   .card-content {
-    padding: 0 20px 47px;
-    max-width: 352px;
-    //width: 352px;
-    margin: 0 auto;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .card-title {
@@ -33,11 +32,13 @@ section#price .container {
     text-align: center;
   }
 
-
+  .card-cta {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
 
   .card-button {
-    min-width: auto;
-    //width: 300px;
+    margin-top: 25px;
   }
 
   .feature-list {
@@ -47,13 +48,12 @@ section#price .container {
     font-weight: 300;
     line-height: 22px;
     text-align: left;
-    margin-right: auto;
-    margin-left: auto;
     display: inline-block;
   }
 
   .feature-list li {
     margin-bottom: 8px;
+
   }
 
   .feature-list li:last-child {
@@ -106,6 +106,7 @@ section#price .container {
     border-radius: 100px;
     background-color: rgba(0,0,0,0.05);
     padding: 18px 50px 18px;
+    margin-top: 25px;
     font-size: 16px;
     line-height: 22px;
     font-family: "lato", sans-serif;

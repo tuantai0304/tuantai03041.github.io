@@ -1,5 +1,6 @@
 <section class="section-hero">
 
+    <div class="container">
     {% include  sections/top-nav.html %}
 
     {% include  sections/main-nav.html %}
@@ -7,10 +8,10 @@
     <div class="hero-text">
         <h2>Over 50 million websites are hacked & hijacked every day</h2>
         <h1>Are you protected?</h1>
-        <p>The must have security for every website has arrived</p>
+        <h3>The must have security for every website has arrived</h3>
     </div>
 
-    <div class="container">
+
         <div class="row">
             <div class="col-sm-12 col-md-6">
                 <div class="card card-red">
@@ -31,9 +32,11 @@
                             </div>
                         </div> <!-- End content-->
 
-                        <button class="card-button">
-                            <a href="#"><img src="images/button-icon-next.png" alt="">{{site.data.settings.card-red.button-text}}</a>
-                        </button>
+                        <div class="card-cta">
+                            <button class="card-button">
+                                <a href="#"><img src="images/button-icon-next.png" alt="">{{site.data.settings.card-red.button-text}}</a>
+                            </button>
+                        </div>
 
                     </div> <!-- End card content -->
                 </div> <!-- End card-->
@@ -57,20 +60,17 @@
                             </div>
                         </div> <!-- End content-->
 
-                        <button class="card-button">
-                            <a href="#"><img src="images/button-icon-next.png" alt="">{{site.data.settings.card-green.button-text}}</a>
-                        </button>
+                        <div class="card-cta">
+                            <button class="card-button">
+                                <a href="#"><img src="images/button-icon-next.png" alt="">{{site.data.settings.card-green.button-text}}</a>
+                            </button>
+                        </div>
 
                     </div> <!-- End card content -->
                 </div> <!-- End card-->
             </div> <!-- End column-->
         </div> <!-- End row -->
 
-    </div>
-
-    </div>
-
-
-
+    </div> <!-- End container-->
 
 </section>

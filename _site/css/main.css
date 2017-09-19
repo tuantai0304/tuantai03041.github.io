@@ -14,17 +14,23 @@ html, body {
   height: 100%; }
 
 body {
-  font-family: 'Montserrat', sans-serif;
-  text-align: center; }
+  font-family: 'Lato', sans-serif; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
+  font-size: 100%;
+  font-family: "Montserrat", sans-serif;
+  text-align: center; }
 
 h1 {
   margin-bottom: 1em; }
 
 p {
-  margin: 1em 0; }
+  margin: 1em 0;
+  color: #2D2D2D;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px; }
 
 a {
   color: white;
@@ -32,6 +38,14 @@ a {
 
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,0,0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
+
+b, strong {
+  font-weight: bold; }
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 100%;
+    width: 1260px; } }
 
 /* Import parts */
 .section-title {
@@ -57,7 +71,6 @@ a {
   background-color: #4A90E2; }
 
 section, header, footer {
-  max-width: 1440px;
   margin: 0 auto; }
 
 button:hover, .btn:hover {
@@ -92,7 +105,7 @@ button:hover, .btn:hover {
   letter-spacing: 1px;
   line-height: 29px; }
 
-.hero-text p {
+.hero-text h3 {
   font-size: 20px;
   font-family: "Lato", sans-serif;
   color: rgba(255, 255, 255, 0.75);
@@ -106,6 +119,11 @@ button:hover, .btn:hover {
 @media screen and (max-width: 500px) {
   .hero-text h2, .hero-text h1, .hero-text p {
     font-size: 2em; } }
+
+@media (min-width: 1200px) {
+  .section-hero .container {
+    max-width: 100%;
+    width: 1440px; } }
 
 .navbar-wrapper {
   margin-left: 40px;
@@ -225,8 +243,9 @@ button:hover, .btn:hover {
   letter-spacing: 2px; }
 
 .card-features {
-  margin-top: 24px;
-  padding: 0; }
+  margin: 24px auto 0;
+  padding: 0;
+  text-align: center; }
 
 .card-features .icon, .card-features .content {
   display: inline-block;
@@ -276,8 +295,9 @@ button:hover, .btn:hover {
 .card-button {
   border-radius: 100px;
   max-width: 450px;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.25);
   width: 100%;
-  margin-top: 38px;
+  margin: 38px auto 0;
   padding: 16px 0 16px;
   border: none; }
 
@@ -290,6 +310,9 @@ button:hover, .btn:hover {
   font-weight: bold;
   line-height: 18px;
   color: white; }
+
+.card-cta {
+  text-align: center; }
 
 @media screen and (max-width: 500px) {
   .card-button {
@@ -334,22 +357,24 @@ section#platforms .section-title {
 section#features {
   padding-bottom: 70px;
   padding-top: 85px; }
+  section#features .features-item {
+    text-align: center;
+    max-width: 320px; }
 
 .features-item-title {
   font-size: 15px;
   font-weight: bold;
   letter-spacing: 1px;
   line-height: 20px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin-top: 19px; }
 
 .features-item-content {
-  color: #2D2D2D;
-  font-family: "Lato", sans-serif;
   font-size: 14px;
   font-weight: 300;
   line-height: 20px;
-  max-width: 320px;
-  margin: auto; }
+  margin: 13px auto;
+  text-align: center; }
 
 .features-item:nth-child(n+4) {
   margin-bottom: 0; }
@@ -367,14 +392,14 @@ section .container {
 .review {
   position: absolute;
   max-width: 685px;
-  color: white;
   text-align: left;
   top: 263px;
   left: 134px; }
+  .review p {
+    color: white; }
 
 .review .quote {
   color: #FFFFFF;
-  font-family: "Lato", sans-serif;
   font-size: 40px;
   font-weight: 300;
   line-height: 48px;
@@ -429,12 +454,12 @@ section .container {
   padding-top: 99px;
   padding-bottom: 124px;
   text-align: left; }
-  .large-benefit .container {
-    width: 1260px; }
   .large-benefit .content-wrapper {
-    max-width: 730px; }
+    max-width: 730px;
+    margin: 0; }
   .large-benefit .section-title {
-    margin-bottom: 31px; }
+    margin-bottom: 31px;
+    text-align: left; }
   .large-benefit .large-benefit-single {
     margin-bottom: 68px; }
   .large-benefit .large-benefit-intro {
@@ -473,8 +498,14 @@ section .container {
 #repair {
   background-color: #ECECEC; }
 
-.large-benefit.red {
+.large-benefit.red .container {
   background: url("../images/macbook-alert.png") center right no-repeat; }
+
+@media (min-width: 1440px) {
+  .large-benefit .container {
+    max-width: 100%;
+    width: 1440px;
+    padding-left: 90px; } }
 
 .large-benefit {
   padding-top: 99px;
@@ -515,7 +546,7 @@ section .container {
 #protect {
   background-color: white; }
 
-.large-benefit.green {
+.large-benefit.green .container {
   background: url("../images/macbook-padlock.png") center right no-repeat; }
 
 section#price {
@@ -523,9 +554,9 @@ section#price {
   background-color: #ECECEC; }
 
 .price-card .card-content {
-  padding: 0 20px 47px;
-  max-width: 352px;
-  margin: 0 auto; }
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px; }
 
 .price-card .card-title {
   font-size: 28px;
@@ -541,8 +572,12 @@ section#price {
   line-height: 20px;
   text-align: center; }
 
+.price-card .card-cta {
+  padding-left: 25px;
+  padding-right: 25px; }
+
 .price-card .card-button {
-  min-width: auto; }
+  margin-top: 25px; }
 
 .price-card .feature-list {
   color: #555555;
@@ -551,8 +586,6 @@ section#price {
   font-weight: 300;
   line-height: 22px;
   text-align: left;
-  margin-right: auto;
-  margin-left: auto;
   display: inline-block; }
 
 .price-card .feature-list li {
@@ -601,6 +634,7 @@ section#price {
   border-radius: 100px;
   background-color: rgba(0, 0, 0, 0.05);
   padding: 18px 50px 18px;
+  margin-top: 25px;
   font-size: 16px;
   line-height: 22px;
   font-family: "lato", sans-serif;
@@ -764,6 +798,8 @@ section#testimonials .card-button img {
     padding: 0;
     background: none;
     border: none; }
+  #contact p {
+    color: white; }
 
 #contact .card-button {
   background: #4A90E2;
@@ -858,6 +894,10 @@ form .card-button img {
     line-height: 26px; }
 
 /* Change the column width of boostrap for footer */
+#contact .contact-col {
+  display: inline-block;
+  vertical-align: top; }
+
 #contact .contact-col:first-child {
   width: 430px; }
 
@@ -866,7 +906,8 @@ form .card-button img {
   margin-left: 64px; }
 
 #contact .contact-col:nth-child(3) {
-  width: 320px; }
+  width: 320px;
+  float: right; }
 
 .social-icons {
   display: -ms-flexbox;
@@ -882,6 +923,8 @@ footer {
   padding: 35px 0 35px;
   background-color: #202020;
   text-align: left; }
+  footer p {
+    color: white; }
 
 footer .credit {
   font-family: "Lato", sans-serif;
@@ -918,3 +961,15 @@ footer p:nth-child(n+2) {
     content: " | ";
     padding-left: 10px;
     padding-right: 10px; }
+
+.content-wrapper {
+  margin: 105px auto 115px;
+  text-align: left; }
+
+.page-title {
+  font-family: "Lato", sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 60px;
+  text-align: center;
+  margin: 102px auto 0; }

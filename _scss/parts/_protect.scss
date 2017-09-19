@@ -61,5 +61,7 @@
 
 
 .large-benefit.green {
-  background: url("../images/macbook-padlock.png") center right no-repeat;
+  .container {
+    background: url("../images/macbook-padlock.png") center right no-repeat;
+  }
 }

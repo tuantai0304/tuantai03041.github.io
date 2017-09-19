@@ -10,15 +10,17 @@ section .container {
 .review {
   position: absolute;
   max-width: 685px;
-  color: white;
   text-align: left;
   top: 263px;
   left: 134px;
+
+  p {
+    color: white;
+  }
 }
 
 .review .quote {
   color: #FFFFFF;
-  font-family: "Lato", sans-serif;
   font-size: 40px;
   font-weight: 300;
   line-height: 48px;

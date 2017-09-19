@@ -34,7 +34,7 @@
   line-height: 29px;
 }
 
-.hero-text p {
+.hero-text h3 {
   font-size: 20px;
   font-family: "Lato", sans-serif;
   color: $hero-text-color;
@@ -50,6 +50,15 @@
 @media screen and (max-width: 500px) {
   .hero-text h2, .hero-text h1, .hero-text p  {
     font-size: 2em;
+  }
+}
+
+@media (min-width: 1200px) {
+  .section-hero {
+    .container {
+      max-width: 100%;
+      width: 1440px;
+    }
   }
 }
 

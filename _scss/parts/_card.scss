@@ -75,8 +75,9 @@
 
 
 .card-features {
-  margin-top: 24px;
+  margin: 24px auto 0;
   padding: 0;
+  text-align: center;
 }
 
 .card-features .icon, .card-features .content {
@@ -138,11 +139,12 @@
 .card-button {
   border-radius: 100px;
   max-width:450px;
-  //min-width:400px;
+  box-shadow: 0 4px 12px 0 rgba(0,0,0,0.25);
   width: 100%;
-  margin-top: 38px;
+  margin: 38px auto 0;
   padding: 16px 0 16px;
   border: none;
+
 }
 
 .card-button i {
@@ -155,6 +157,10 @@
   font-weight: bold;
   line-height: 18px;
   color: white;
+}
+
+.card-cta {
+  text-align: center;
 }
 
 @media screen and (max-width: 500px) {

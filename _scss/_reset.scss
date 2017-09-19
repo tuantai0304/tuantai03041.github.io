@@ -13,16 +13,27 @@
 html, body { height: 100%; }
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
+    font-family: 'Lato', sans-serif;
+    //text-align: center;
 
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-size: 100%; }
+    font-size: 100%;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
 
 h1 { margin-bottom: 1em; }
-p { margin: 1em 0; }
+
+p {
+    margin: 1em 0;
+    color: $main-text-color;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+}
 
 a {
     color: white;
@@ -31,4 +42,15 @@ a {
 
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,0,0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+b, strong {
+    font-weight: bold;
+}
+
+@media (min-width: 1440px) {
+    .container {
+        max-width: 100%;
+        width: 1260px;
+    }
 }

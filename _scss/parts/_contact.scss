@@ -11,6 +11,10 @@
     background: none;
     border: none;
   }
+
+  p {
+    color: white;
+  }
 }
 
 #contact .card-button {
@@ -143,6 +147,11 @@ form .card-button img {
   //  width: 430px;
   //}
 
+  .contact-col {
+    display: inline-block;
+    vertical-align: top;
+  }
+
   .contact-col:first-child {
     width: 430px;
   }
@@ -154,6 +163,7 @@ form .card-button img {
 
   .contact-col:nth-child(3) {
     width: 320px;
+    float: right;
   }
 }
 

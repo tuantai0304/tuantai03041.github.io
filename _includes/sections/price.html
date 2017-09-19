@@ -21,26 +21,29 @@
                         <p class="billing-period">{{item.period}}</p>
 
                         <hr>
+                        <div class="">
+                            <ul class="feature-list">
+                                {%for feature in item.features %}
+                                <li>{{feature}}</li>
+                                {%endfor%}
+                            </ul> <!-- End feateure list-->
 
-                        <ul class="feature-list">
-                            {%for feature in item.features %}
-                            <li>{{feature}}</li>
-                            {%endfor%}
-                        </ul> <!-- End feateure list-->
+                        </div>
 
                         {% if item.card-emphasized %}
                         <p class="card-emphasized">{{item.card-emphasized}}</p>
                         {% endif %}
 
-                        <button class="card-button">
-                            <a href="#"><img src="images/button-icon-next.png" alt="">{{item.button-text}}</a>
-                        </button>
+                        <div class="card-cta">
+                            <button class="card-button">
+                                <a href="#"><img src="images/button-icon-next.png" alt="">{{item.button-text}}</a>
+                            </button>
+                        </div>
                     </div> <!-- End card content -->
                 </div> <!-- End card-->
             </div>
             {% endfor%}
 
-        </div>
-
+        </div> <!-- End row -->
     </div> <!--End container-->
 </section> <!-- End section features -->
