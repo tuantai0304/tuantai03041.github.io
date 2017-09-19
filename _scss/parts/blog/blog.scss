@@ -1,0 +1,77 @@
+.section-blog {
+  padding-top: 82px;
+  padding-bottom: 144px;
+
+  h1 {
+    font-family: "Montserrat",sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height: 29px;
+    margin-bottom: 0;
+  }
+
+  .blog-post {
+    margin-top: 80px;
+
+    p {
+      font-size: 16px;
+    }
+  }
+
+  .post-title h2 {
+    color: $blue;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: left;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+
+  }
+
+  .post-readmore {
+    max-width: 100%;
+    width: 180px;
+  }
+
+  .post-meta {
+    height: 60px;
+    padding-top: 5px;
+
+    .date {
+      //text-align: right;
+      display: inline-block;
+      float: right;
+      font-weight: 300;
+    }
+
+    .author {
+      display: inline-block;
+      position: relative;
+      width: 200px;
+
+      .author-image {
+        width: 100px;
+        background: #ccc;
+        height: 100px;
+        display: inline-block;
+        border-radius: 50%;
+        position: absolute;
+        top: -55px;
+        left: 20px;
+      }
+
+      .author-name {
+        display: inline-block;
+        float: right;
+        color: $blue;
+        font-weight: bold;
+      }
+
+      .author-name, .date {
+        font-size: 14px;
+        line-height: 24px;
+      }
+    }
+  }
+}

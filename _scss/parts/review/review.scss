@@ -1,0 +1,115 @@
+.section-hero {
+  //padding-bottom: 130px;
+
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px auto 0;
+    max-width: 100%;
+    width: 1260px;
+
+    .review {
+      position: static;
+
+      .stars {
+        img {
+          margin-right: 20px;
+        }
+      }
+
+      .detail {
+        margin-top: 50px;
+        text-align: center;
+
+        .review-points, .review-cta {
+          display: inline-block;
+        }
+
+        .review-points {
+          color: rgba(255,255,255,0.75);
+          font-family: "Lato",sans-serif;
+          font-size: 20px;
+          line-height: 24px;
+        }
+
+        .review-cta {
+          max-width: 100%;
+          width: 300px;
+          margin-left: 20px;
+        }
+      }
+    }
+
+    .title-div, .review {
+      display: inline-block;
+    }
+
+    .title-div {
+      //margin-top: 180px;
+      max-width: 100%;
+      width: 371px;
+      position: relative;
+
+      h1 {
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -50%);
+        text-align: left;
+        vertical-align: middle;
+        margin: 0;
+        font-family: "Lato", sans-serif;
+        font-size: 50px;
+        font-weight: bold;
+        line-height: 60px;
+      }
+    }
+  }
+}
+
+/* Section reviews */
+.section-review {
+  font-family: "Lato", sans-serif;
+  padding-top: 23px;
+  padding-bottom: 118px;
+
+
+  .review-row {
+    border-bottom: 1px solid #2D2D2D;
+
+    &:last-child {
+      border: none;
+    }
+  }
+
+  .review-post {
+    padding: 50px 15px 50px;
+
+    &:nth-last-child(3) {
+      border: none;
+    }
+
+    .name, .date {
+      font-weight: bold;
+      line-height: 24px;
+      margin: 0;
+    }
+
+    .name {
+
+    }
+
+    .date {
+      color: $blue;
+    }
+
+    .content {
+      margin-top: 10px;
+    }
+  }
+
+  .review-cta {
+    width: 300px;
+    max-width: 100%;
+    margin: 67px auto 0;
+  }
+}

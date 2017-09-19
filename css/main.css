@@ -17,7 +17,6 @@ body {
   font-family: 'Lato', sans-serif; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 100%;
   font-family: "Montserrat", sans-serif;
   text-align: center; }
 
@@ -76,6 +75,33 @@ section, header, footer {
 button:hover, .btn:hover {
   box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
   opacity: 2; }
+
+.btn {
+  border-radius: 100px;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.25);
+  width: 100%;
+  margin: 0 auto 0;
+  padding: 16px 0 16px;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 18px;
+  text-transform: uppercase; }
+  .btn:hover, .btn:focus, .btn:visited {
+    color: white; }
+  .btn .btn-icon {
+    margin-right: 10px; }
+
+.btn-blue {
+  background-color: #4A90E2; }
+
+.btn-red {
+  background-color: #F15531; }
+
+.btn-green {
+  background-color: #17D882; }
 
 .section-hero {
   padding-bottom: 152px; }
@@ -961,6 +987,131 @@ footer p:nth-child(n+2) {
     content: " | ";
     padding-left: 10px;
     padding-right: 10px; }
+
+/* Page styles */
+.section-blog {
+  padding-top: 82px;
+  padding-bottom: 144px; }
+  .section-blog h1 {
+    font-family: "Montserrat",sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height: 29px;
+    margin-bottom: 0; }
+  .section-blog .blog-post {
+    margin-top: 80px; }
+    .section-blog .blog-post p {
+      font-size: 16px; }
+  .section-blog .post-title h2 {
+    color: #4A90E2;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: left;
+    font-family: "Lato", sans-serif;
+    font-weight: bold; }
+  .section-blog .post-readmore {
+    max-width: 100%;
+    width: 180px; }
+  .section-blog .post-meta {
+    height: 60px;
+    padding-top: 5px; }
+    .section-blog .post-meta .date {
+      display: inline-block;
+      float: right;
+      font-weight: 300; }
+    .section-blog .post-meta .author {
+      display: inline-block;
+      position: relative;
+      width: 200px; }
+      .section-blog .post-meta .author .author-image {
+        width: 100px;
+        background: #ccc;
+        height: 100px;
+        display: inline-block;
+        border-radius: 50%;
+        position: absolute;
+        top: -55px;
+        left: 20px; }
+      .section-blog .post-meta .author .author-name {
+        display: inline-block;
+        float: right;
+        color: #4A90E2;
+        font-weight: bold; }
+      .section-blog .post-meta .author .author-name, .section-blog .post-meta .author .date {
+        font-size: 14px;
+        line-height: 24px; }
+
+.section-hero .wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  margin: 100px auto 0;
+  max-width: 100%;
+  width: 1260px; }
+  .section-hero .wrapper .review {
+    position: static; }
+    .section-hero .wrapper .review .stars img {
+      margin-right: 20px; }
+    .section-hero .wrapper .review .detail {
+      margin-top: 50px;
+      text-align: center; }
+      .section-hero .wrapper .review .detail .review-points, .section-hero .wrapper .review .detail .review-cta {
+        display: inline-block; }
+      .section-hero .wrapper .review .detail .review-points {
+        color: rgba(255, 255, 255, 0.75);
+        font-family: "Lato",sans-serif;
+        font-size: 20px;
+        line-height: 24px; }
+      .section-hero .wrapper .review .detail .review-cta {
+        max-width: 100%;
+        width: 300px;
+        margin-left: 20px; }
+  .section-hero .wrapper .title-div, .section-hero .wrapper .review {
+    display: inline-block; }
+  .section-hero .wrapper .title-div {
+    max-width: 100%;
+    width: 371px;
+    position: relative; }
+    .section-hero .wrapper .title-div h1 {
+      position: absolute;
+      top: 50%;
+      -webkit-transform: translate(0, -50%);
+              transform: translate(0, -50%);
+      text-align: left;
+      vertical-align: middle;
+      margin: 0;
+      font-family: "Lato", sans-serif;
+      font-size: 50px;
+      font-weight: bold;
+      line-height: 60px; }
+
+/* Section reviews */
+.section-review {
+  font-family: "Lato", sans-serif;
+  padding-top: 23px;
+  padding-bottom: 118px; }
+  .section-review .review-row {
+    border-bottom: 1px solid #2D2D2D; }
+    .section-review .review-row:last-child {
+      border: none; }
+  .section-review .review-post {
+    padding: 50px 15px 50px; }
+    .section-review .review-post:nth-last-child(3) {
+      border: none; }
+    .section-review .review-post .name, .section-review .review-post .date {
+      font-weight: bold;
+      line-height: 24px;
+      margin: 0; }
+    .section-review .review-post .date {
+      color: #4A90E2; }
+    .section-review .review-post .content {
+      margin-top: 10px; }
+  .section-review .review-cta {
+    width: 300px;
+    max-width: 100%;
+    margin: 67px auto 0; }
 
 .content-wrapper {
   margin: 105px auto 115px;
