@@ -6,13 +6,13 @@
 
         <h2 class="card-title">{{item.title}}</h2>
         <h3 class="card-subtitle">{{item.subtitle}}</h3>
-        <div class="card-content-row">
-            <div class="card-content-left">
+        <div class="card-content-row row">
+            <div class="card-content-col col-6">
                 <p class="card-price"><i class="fa fa-dollar"></i>{{item.price}}<span class="per-period">/ {{item.per-period}}</span></p>
                 <p class="billing-period">{{item.period}}</p>
             </div>
 
-            <div class="card-content-right">
+            <div class="card-content-col col-6">
             <ul class="feature-list">
                 {%for feature in item.features %}
                 <li>{{feature}}</li>

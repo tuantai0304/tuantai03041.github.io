@@ -1,26 +1,25 @@
 .card-horizontal {
+  max-width: 100%;
+  width: 700px;
 
-  .card-content-row {
-    //display:table;
-    //height: 1000px;
-    margin-top: 50px;
-
-    .card-content-left, .card-content-right{
-      display: inline-block;
-      vertical-align: top;
-    }
-
-    .card-content-left {
-      height: 100%;
-      border-right: 1px solid black;
-      padding-right: 15px;
-      margin-right: 35px;
-    }
-
-    .card-content-right {
-      //margin-right: 15px;
-    }
-
+  .card-content-col {
+    width: 100%;
   }
 
+  .topper, .card-title, .card-subtitle{
+    text-align: center;
+  }
+
+  .card-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 54px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    line-height: 66px;
+  }
+
+  .card-content-row {
+    margin-top: 50px;
+    ;
+  }
 }

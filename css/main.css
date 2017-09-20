@@ -231,7 +231,6 @@ button:hover, .btn:hover {
 
 .card .bar {
   height: 17px;
-  max-width: 500px;
   border-radius: 5px 5px 0 0; }
 
 .card-red .bar {
@@ -348,16 +347,21 @@ button:hover, .btn:hover {
   .card-red {
     margin-bottom: 30px; } }
 
-.card-horizontal .card-content-row {
-  margin-top: 50px; }
-  .card-horizontal .card-content-row .card-content-left, .card-horizontal .card-content-row .card-content-right {
-    display: inline-block;
-    vertical-align: top; }
-  .card-horizontal .card-content-row .card-content-left {
-    height: 100%;
-    border-right: 1px solid black;
-    padding-right: 15px;
-    margin-right: 35px; }
+.card-horizontal {
+  max-width: 100%;
+  width: 700px; }
+  .card-horizontal .card-content-col {
+    width: 100%; }
+  .card-horizontal .topper, .card-horizontal .card-title, .card-horizontal .card-subtitle {
+    text-align: center; }
+  .card-horizontal .card-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 54px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    line-height: 66px; }
+  .card-horizontal .card-content-row {
+    margin-top: 50px; }
 
 section#platforms {
   background: #F4F4F4;
