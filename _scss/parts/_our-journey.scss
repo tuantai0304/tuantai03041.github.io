@@ -1,0 +1,28 @@
+.section-our-journey {
+  background-color: #F4F4F4;
+  padding-top: 90px;
+  padding-bottom: 107px;
+
+  .section-title {
+    margin-bottom: 0;
+  }
+
+  .section-subtitle {
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    line-height: 61px;
+    color: $blue;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .video {
+    width: 757px;
+    height: 418px;
+    background-color: black;
+    margin: auto;
+    margin-top: 40px;
+  }
+}

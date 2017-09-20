@@ -349,17 +349,51 @@ button:hover, .btn:hover {
 
 .card-horizontal {
   max-width: 100%;
-  width: 700px; }
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto; }
   .card-horizontal .card-content-col {
     width: 100%; }
-  .card-horizontal .topper, .card-horizontal .card-title, .card-horizontal .card-subtitle {
-    text-align: center; }
-  .card-horizontal .card-title {
-    font-family: "Montserrat", sans-serif;
-    font-size: 54px;
-    font-weight: 500;
-    letter-spacing: 5px;
-    line-height: 66px; }
+  .card-horizontal.price-card {
+    margin-top: 88px; }
+    .card-horizontal.price-card .card-subtitle, .card-horizontal.price-card .card-title,
+    .card-horizontal.price-card .card-price, .card-horizontal.price-card .per-period {
+      font-family: "Montserrat", sans-serif; }
+    .card-horizontal.price-card .card-price {
+      font-size: 90px;
+      font-weight: 500;
+      line-height: 110px; }
+    .card-horizontal.price-card .billing-period {
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 20px; }
+    .card-horizontal.price-card .card-content-col {
+      border-right: 1px solid #E4E4E4; }
+      .card-horizontal.price-card .card-content-col:first-child {
+        padding-right: 0; }
+      .card-horizontal.price-card .card-content-col:last-child {
+        border-right: none; }
+      .card-horizontal.price-card .card-content-col .feature-list {
+        max-width: 100%; }
+    .card-horizontal.price-card .card-title {
+      font-size: 54px;
+      font-weight: 500;
+      letter-spacing: 5px;
+      line-height: 66px;
+      margin-top: 50px; }
+    .card-horizontal.price-card .card-subtitle {
+      font-size: 28px;
+      font-weight: 500;
+      letter-spacing: 2px;
+      line-height: 20px; }
+    .card-horizontal.price-card .topper, .card-horizontal.price-card .card-title, .card-horizontal.price-card .card-subtitle {
+      text-align: center; }
+    .card-horizontal.price-card .card-cta {
+      max-width: 100%;
+      width: 450px;
+      margin: 35px auto 0; }
+      .card-horizontal.price-card .card-cta .card-button {
+        margin-top: 0; }
   .card-horizontal .card-content-row {
     margin-top: 50px; }
 
@@ -723,6 +757,8 @@ section#big-review-no-image {
   background-color: #202020;
   padding-top: 167px;
   padding-bottom: 144px; }
+  section#big-review-no-image.blue {
+    background: #4A90E2; }
   section#big-review-no-image .review {
     position: relative;
     color: white;
@@ -826,6 +862,28 @@ section#testimonials .card-button {
 section#testimonials .card-button img {
   margin-right: 10px;
   vertical-align: top; }
+
+.section-our-journey {
+  background-color: #F4F4F4;
+  padding-top: 90px;
+  padding-bottom: 107px; }
+  .section-our-journey .section-title {
+    margin-bottom: 0; }
+  .section-our-journey .section-subtitle {
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    line-height: 61px;
+    color: #4A90E2;
+    font-family: "Montserrat", sans-serif; }
+  .section-our-journey .video {
+    width: 757px;
+    height: 418px;
+    background-color: black;
+    margin: auto;
+    margin-top: 40px; }
 
 #contact {
   padding-bottom: 113px;
@@ -1179,6 +1237,9 @@ footer p:nth-child(n+2) {
             float: right; }
             .section-faqs .accordant .questions-list li > a > p > .icon > .fa {
               color: #AFAFAF; }
+
+.section-hero.price-hero {
+  padding-bottom: 120px; }
 
 .content-wrapper {
   margin: 105px auto 115px;

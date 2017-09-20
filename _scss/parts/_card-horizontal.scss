@@ -1,25 +1,82 @@
 .card-horizontal {
   max-width: 100%;
   width: 700px;
+  margin-left: auto;
+  margin-right: auto;
 
   .card-content-col {
     width: 100%;
   }
 
-  .topper, .card-title, .card-subtitle{
-    text-align: center;
+  &.price-card {
+    margin-top: 88px;
+
+    .card-subtitle, .card-title,
+    .card-price, .per-period{
+      font-family: "Montserrat", sans-serif;
+    }
+
+    .card-price {
+      font-size: 90px;
+      font-weight: 500;
+      line-height: 110px;
+    }
+
+    .billing-period {
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 20px;
+    }
+
+
+    .card-content-col {
+      border-right: 1px solid #E4E4E4;
+
+      &:first-child {
+        padding-right: 0;
+      }
+
+      &:last-child {
+        border-right: none;
+      }
+
+      .feature-list {
+        max-width: 100%;
+      }
+    }
+
+    .card-title {
+      font-size: 54px;
+      font-weight: 500;
+      letter-spacing: 5px;
+      line-height: 66px;
+      margin-top: 50px;
+    }
+
+    .card-subtitle {
+      font-size: 28px;
+      font-weight: 500;
+      letter-spacing: 2px;
+      line-height: 20px;
+    }
+
+    .topper, .card-title, .card-subtitle{
+      text-align: center;
+    }
+
+    .card-cta {
+      max-width: 100%;
+      width: 450px;
+      margin: 35px auto 0;
+
+      .card-button {
+        margin-top: 0;
+      }
+    }
   }
 
-  .card-title {
-    font-family: "Montserrat", sans-serif;
-    font-size: 54px;
-    font-weight: 500;
-    letter-spacing: 5px;
-    line-height: 66px;
-  }
 
   .card-content-row {
     margin-top: 50px;
-    ;
   }
 }

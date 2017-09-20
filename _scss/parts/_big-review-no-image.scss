@@ -4,6 +4,10 @@ section#big-review-no-image {
   padding-top: 167px;
   padding-bottom: 144px;
 
+  &.blue {
+    background: $blue;
+  }
+
   .review {
     position: relative;
     color: white;
