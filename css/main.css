@@ -917,40 +917,6 @@ section#testimonials .card-button img {
   #contact p {
     color: white; }
 
-#contact .card-button {
-  background: #4A90E2;
-  width: 100%;
-  margin-top: 10px; }
-
-.contact-card {
-  width: 100%;
-  border-radius: 5px;
-  background-color: #FFFFFF;
-  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
-  margin: auto;
-  margin-bottom: 20px;
-  padding-bottom: 37px;
-  margin-right: 30px; }
-
-.contact-content {
-  text-align: left;
-  margin: 22px 37px; }
-
-.card-header-text {
-  display: inline-block;
-  font-size: 24px;
-  font-weight: 500;
-  letter-spacing: 2px;
-  line-height: 29px;
-  text-transform: uppercase;
-  margin: 0;
-  vertical-align: middle;
-  margin-left: 12px;
-  color: #2D2D2D; }
-
-form .form-group.row {
-  margin-bottom: 20px; }
-
 .office, .widget-title {
   text-align: left;
   color: white;
@@ -983,13 +949,6 @@ form .form-group.row {
 
 .office-detail p a {
   color: white; }
-
-form .card-button {
-  max-width: 100%; }
-
-form .card-button img {
-  margin-right: 10px;
-  vertical-align: top; }
 
 .sitemap .nav-link {
   text-align: left;
@@ -1258,6 +1217,143 @@ footer p:nth-child(n+2) {
 
 .section-hero.price-hero {
   padding-bottom: 120px; }
+
+.contact-hero .section-title {
+  font-family: "Lato", sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 60px;
+  text-align: center;
+  margin-top: 82px;
+  margin-bottom: 0;
+  text-transform: none; }
+
+.contact-hero .section-subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 72px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  line-height: 88px;
+  color: white;
+  margin-bottom: 30px; }
+
+.contact-hero .hero-cta {
+  text-align: center; }
+  .contact-hero .hero-cta .btn {
+    display: inline-block;
+    width: 206px; }
+  .contact-hero .hero-cta .or {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 18px;
+    color: white;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 25px;
+    margin-right: 25px; }
+
+.section-contact-details {
+  padding-top: 71px;
+  padding-bottom: 102px;
+  background-color: #F4F4F4; }
+  .section-contact-details .section-title {
+    margin-bottom: 100px; }
+  .section-contact-details .contact-detail-item {
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 45px; }
+    .section-contact-details .contact-detail-item .icon > img {
+      width: 52px;
+      height: 52px; }
+    .section-contact-details .contact-detail-item .content {
+      width: 630px;
+      margin-left: 28px; }
+      .section-contact-details .contact-detail-item .content .title, .section-contact-details .contact-detail-item .content p {
+        text-align: left;
+        margin: 0 0 4px; }
+      .section-contact-details .contact-detail-item .content .country-phone {
+        font-weight: bold; }
+        .section-contact-details .contact-detail-item .content .country-phone .phone {
+          color: #4A90E2; }
+      .section-contact-details .contact-detail-item .content p {
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 26px;
+        font-family: "Lato", sans-serif;
+        padding: 0; }
+        .section-contact-details .contact-detail-item .content p > a {
+          color: #4A90E2;
+          font-family: "Lato", sans-serif;
+          font-size: 18px;
+          line-height: 26px;
+          text-decoration: underline; }
+      .section-contact-details .contact-detail-item .content .title {
+        font-family: "Montserrat", sans-serif;
+        font-size: 24px;
+        font-weight: 500;
+        letter-spacing: 2px;
+        line-height: 29px;
+        margin-bottom: 15px;
+        text-transform: uppercase; }
+      .section-contact-details .contact-detail-item .content .cta {
+        width: 206px;
+        max-width: 100%;
+        margin-top: 25px; }
+
+/*Section maps*/
+.section-map {
+  background: red;
+  height: 200px; }
+
+/* UI styles */
+.contact-card {
+  background: white;
+  border-radius: 5px; }
+  .contact-card .contact-content {
+    padding: 30px; }
+    .contact-card .contact-content form .form-group.row {
+      margin-bottom: 10px; }
+    .contact-card .contact-content form input::-webkit-input-placeholder, .contact-card .contact-content form textarea::-webkit-input-placeholder {
+      color: #9D9D9D;
+      font-family: "Lato", sans-serif;
+      font-size: 16px;
+      line-height: 24px; }
+    .contact-card .contact-content form input::-moz-placeholder, .contact-card .contact-content form textarea::-moz-placeholder {
+      color: #9D9D9D;
+      font-family: "Lato", sans-serif;
+      font-size: 16px;
+      line-height: 24px; }
+    .contact-card .contact-content form input:-ms-input-placeholder, .contact-card .contact-content form textarea:-ms-input-placeholder {
+      color: #9D9D9D;
+      font-family: "Lato", sans-serif;
+      font-size: 16px;
+      line-height: 24px; }
+    .contact-card .contact-content form input::placeholder, .contact-card .contact-content form textarea::placeholder {
+      color: #9D9D9D;
+      font-family: "Lato", sans-serif;
+      font-size: 16px;
+      line-height: 24px; }
+    .contact-card .contact-content form input, .contact-card .contact-content form textarea {
+      padding: 13px 16px 13px 16px; }
+    .contact-card .contact-content form .card-button {
+      padding: 0;
+      margin-top: 10px; }
+    .contact-card .contact-content .card-header {
+      background: none;
+      margin-bottom: 19px;
+      border: none; }
+      .contact-card .contact-content .card-header .card-header-text {
+        display: inline-block;
+        font-size: 24px;
+        font-weight: 500;
+        letter-spacing: 2px;
+        line-height: 29px;
+        text-transform: uppercase;
+        vertical-align: middle;
+        margin-left: 12px;
+        color: #2D2D2D; }
 
 .content-wrapper {
   margin: 105px auto 115px;
