@@ -903,19 +903,20 @@ section#testimonials .card-button img {
     margin: auto;
     margin-top: 40px; }
 
-#contact {
+.section-contact {
   padding-bottom: 113px;
   padding-top: 85px;
   background-color: #2D2D2D;
   text-align: left;
   color: white; }
-  #contact .card-header {
+  .section-contact .card-header {
     margin-bottom: 19px;
     padding: 0;
     background: none;
     border: none; }
-  #contact p {
-    color: white; }
+  .section-contact p {
+    color: white;
+    font-size: 14px; }
 
 .office, .widget-title {
   text-align: left;
@@ -966,21 +967,23 @@ section#testimonials .card-button img {
     color: #FFFFFF;
     font-family: "Lato", sans-serif;
     font-size: 14px;
-    line-height: 26px; }
+    line-height: 26px;
+    max-width: 100%;
+    width: 320px; }
 
 /* Change the column width of boostrap for footer */
-#contact .contact-col {
+.section-contact .contact-col {
   display: inline-block;
   vertical-align: top; }
 
-#contact .contact-col:first-child {
+.section-contact .contact-col:first-child {
   width: 430px; }
 
-#contact .contact-col:nth-child(2) {
+.section-contact .contact-col:nth-child(2) {
   width: 320px;
   margin-left: 64px; }
 
-#contact .contact-col:nth-child(3) {
+.section-contact .contact-col:nth-child(3) {
   width: 320px;
   float: right; }
 
@@ -1304,8 +1307,8 @@ footer p:nth-child(n+2) {
 
 /*Section maps*/
 .section-map {
-  background: red;
-  height: 200px; }
+  background: #4A90E2;
+  height: 300px; }
 
 /* UI styles */
 .contact-card {

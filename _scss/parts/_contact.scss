@@ -1,4 +1,4 @@
-#contact {
+.section-contact {
   padding-bottom: 113px;
   padding-top: 85px;
   background-color: #2D2D2D;
@@ -14,6 +14,7 @@
 
   p {
     color: white;
+    font-size: 14px;
   }
 }
 
@@ -83,12 +84,14 @@
     font-family: "Lato", sans-serif;
     font-size: 14px;
     line-height: 26px;
+    max-width: 100%;
+    width: 320px;
   }
 }
 
 
 /* Change the column width of boostrap for footer */
-#contact {
+.section-contact {
   .contact-col {
     display: inline-block;
     vertical-align: top;
