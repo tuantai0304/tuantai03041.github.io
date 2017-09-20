@@ -1,0 +1,46 @@
+{% assign item = site.data.settings.prices %}
+<div class="row">
+
+{% for i in (1..2) %}
+    <div class="col-6">
+        <div class="card-horizontal price-card ">
+            <div class="card card-green">
+                <div class="topper"></div>
+                <div class="card-content">
+
+                    <h2 class="card-title">{{item[i].title}}</h2>
+                    <h3 class="card-subtitle">{{item[i].subtitle}}</h3>
+                    <div class="card-content-row row">
+                        <div class="card-content-col col-6">
+                            <div class="">
+                                <p class="card-price"><i class="fa fa-dollar"></i>{{item[i].price}}<span class="per-period">/ {{item[i].per-period}}</span></p>
+                                <p class="billing-period">{{item[i].period}}</p>
+                            </div>
+                        </div>
+
+                        <div class="card-content-col col-6">
+                            <ul class="feature-list">
+                                {%for feature in item[i].features %}
+                                <li>{{feature}}</li>
+                                {%endfor%}
+                            </ul> <!-- End feateure list-->
+
+                        </div>
+                    </div>
+
+                    {% if item[i].card-emphasized %}
+                    <p class="card-emphasized">{{item[i].card-emphasized}}</p>
+                    {% endif %}
+
+                    <div class="card-cta">
+                        <button class="card-button">
+                            <a href="#"><img src="images/button-icon-next.png" alt="">{{item[i].button-text}}</a>
+                        </button>
+                    </div>
+                </div> <!-- End card content -->
+            </div> <!-- End card-->
+        </div> <!-- End price card-->
+    </div>
+{% endfor %}
+
+</div> <!-- End row-->

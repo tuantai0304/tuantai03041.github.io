@@ -28,9 +28,16 @@
       line-height: 20px;
     }
 
-
     .card-content-col {
       border-right: 1px solid #E4E4E4;
+      //position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      > div {
+        display: inline-block;
+      }
 
       &:first-child {
         padding-right: 0;
@@ -50,7 +57,7 @@
       font-weight: 500;
       letter-spacing: 5px;
       line-height: 66px;
-      margin-top: 50px;
+      //margin-top: 66px;
     }
 
     .card-subtitle {
@@ -71,6 +78,18 @@
 
       .card-button {
         margin-top: 0;
+      }
+    }
+
+    .card-emphasized {
+      max-width: 100%;
+      width: 526px;
+      margin: 35px auto;
+    }
+
+    .card-green {
+      .card-title {
+        margin-top: 66px;
       }
     }
   }

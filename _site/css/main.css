@@ -368,7 +368,15 @@ button:hover, .btn:hover {
       font-weight: 300;
       line-height: 20px; }
     .card-horizontal.price-card .card-content-col {
-      border-right: 1px solid #E4E4E4; }
+      border-right: 1px solid #E4E4E4;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-align: center;
+          align-items: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+      .card-horizontal.price-card .card-content-col > div {
+        display: inline-block; }
       .card-horizontal.price-card .card-content-col:first-child {
         padding-right: 0; }
       .card-horizontal.price-card .card-content-col:last-child {
@@ -379,8 +387,7 @@ button:hover, .btn:hover {
       font-size: 54px;
       font-weight: 500;
       letter-spacing: 5px;
-      line-height: 66px;
-      margin-top: 50px; }
+      line-height: 66px; }
     .card-horizontal.price-card .card-subtitle {
       font-size: 28px;
       font-weight: 500;
@@ -394,6 +401,12 @@ button:hover, .btn:hover {
       margin: 35px auto 0; }
       .card-horizontal.price-card .card-cta .card-button {
         margin-top: 0; }
+    .card-horizontal.price-card .card-emphasized {
+      max-width: 100%;
+      width: 526px;
+      margin: 35px auto; }
+    .card-horizontal.price-card .card-green .card-title {
+      margin-top: 66px; }
   .card-horizontal .card-content-row {
     margin-top: 50px; }
 
@@ -619,6 +632,8 @@ section .container {
 
 #protect {
   background-color: white; }
+  #protect.grey {
+    background-color: #ECECEC; }
 
 .large-benefit.green .container {
   background: url("../images/macbook-padlock.png") center right no-repeat; }
