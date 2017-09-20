@@ -405,8 +405,11 @@ button:hover, .btn:hover {
       max-width: 100%;
       width: 526px;
       margin: 35px auto; }
-    .card-horizontal.price-card .card-green .card-title {
-      margin-top: 66px; }
+    .card-horizontal.price-card .card-green {
+      width: 650px;
+      max-width: 100%; }
+      .card-horizontal.price-card .card-green .card-title {
+        margin-top: 66px; }
   .card-horizontal .card-content-row {
     margin-top: 50px; }
 
